@@ -1,0 +1,100 @@
+﻿@using ITech.ViewModels
+
+@model CarrinhoCompraViewModel
+
+@Html.AntiForgeryToken()
+<div class="container">
+    <div class="row">
+
+        <img src="~/images/carrinhoDeCompras.jpg" style="width: 150px;" />
+
+        <div>
+            <h4> Seu carrinho de compras: </h4>
+        </div>
+
+        <table class="table table-bordered table-striped">
+
+            <thead>
+                <tr>
+                    <th>Quantidade</th>
+                    <th>Lanche</th>
+                    <th class="text-right">Preço</th>
+                    <th class="text-right">Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model.CarrinhoCompra.CarrinhoCompraItens)
+                {
+                    <tr>
+                        <td class="text-center">
+                            <input type="number"
+                                   name="quantidade"
+                                   value="@item.Quantidade"
+                                   min="1"
+                                   class="form-control"
+                                   style="width: 70px;"
+                                   onchange="atualizarQuantidade(@item.Servico.ServicoId, this.value)" />
+                        </td>
+                        <td class="text-left">@item.Servico.DescricaoCurta</td>
+                        <td class="text-right">@item.Servico.Valor.ToString("c")</td>
+                        <td class="text-right">
+                            @((item.Quantidade * item.Servico.Valor).ToString("c"))
+                        </td>
+                        <td>
+                            <a asp-area="" asp-controller="CarrinhoCompra" asp-action="RemoverItemDoCarrinhoCompras"
+                               asp-route-id=@item.Servico.ServicoId>
+                                Remover item @item.Servico.ServicoId
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-right">Total:</td> 
+                    <td class="text-right">
+                        @Model.CarrinhoCompraTotal.ToString("c")
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+        <div class="text-right">
+            <div class="btn-group">
+                <a class="btn btn-success" asp-area="" asp-controller="Pedido" asp-action="Checkout">
+                    Encerrar Pedido
+                </a>
+                <a class="btn btn-primary" asp-area="" asp-controller="Servico" asp-action="List">
+                    Continuar Comprando
+                </a>
+            </div>
+        </div>
+        <br />
+    </div>
+</div>
+
+<script>
+    function atualizarQuantidade(servicoId, quantidade) {
+        fetch('/CarrinhoCompra/AtualizarQuantidade', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+            },
+            body: JSON.stringify({
+                id: servicoId,
+                quantidade: parseInt(quantidade)
+            })
+        })
+        .then(response => {
+            if (response.ok) {
+                location.reload(); // Atualiza os totais automaticamente
+            } else {
+                alert('Erro ao atualizar quantidade.');
+            }
+        });
+    }
+</script>

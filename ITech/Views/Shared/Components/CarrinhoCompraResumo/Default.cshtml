@@ -1,0 +1,18 @@
+﻿@using ITech.ViewModels
+
+@model CarrinhoCompraViewModel
+
+@if(Model.CarrinhoCompra.CarrinhoCompraItens.Count > 0)
+{
+    <a asp-area="" asp-controller="CarrinhoCompra" asp-action="Index">
+        <span><img src="~/images/iconeCarrinhoDeCompras.png" style="height: 30px;"/></span>
+        <span style="color:white">
+            @Model.CarrinhoCompra.CarrinhoCompraItens.Count
+        </span>
+    </a>
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+﻿@using ITech.ViewModels
+@model HomeViewModel
+
+<h2>Os preferidos da semana</h2>
+<hr />
+
+<div class="row">
+    @foreach (var servico in Model.ServicosPreferidos)
+    {
+        <partial name="_ServicosResumo" for="@servico" />
+    }
+</div>

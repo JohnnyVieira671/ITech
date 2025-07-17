@@ -1,0 +1,13 @@
+﻿@model Servico
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+    <h4>
+    <a asp-area="" asp-controller="Servico" asp-action="Details"
+           asp-route-servicoId="@Model.ServicoId">
+            @Model.DescricaoCurta
+    </a>
+    </h4>
+    <h3>Preço: @Model.Valor.ToString("c")</h3>
+    <p>@Model.DescricaoDetalhada</p>
+    <hr />
+</div>

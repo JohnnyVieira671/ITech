@@ -1,0 +1,17 @@
+﻿@using ITech.ViewModels
+
+@model ServicoListViewModel
+
+<div>
+    <h2>@Model.CategoriaAtual</h2>
+</div>
+<hr />
+
+<div class="container">
+    <div class="row">
+        @foreach (var servico in Model.Servicos)
+        {
+            <partial name="_ServicosResumo" model="servico" />
+        }
+    </div>
+</div>
