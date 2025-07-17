@@ -7,7 +7,9 @@ using ITech.Repositories;
 using ITech.Repositories.Interfaces;
 using ITech.Services;
 using Microsoft.AspNetCore.Identity;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
 using Microsoft.EntityFrameworkCore;
+
 using ReflectionIT.Mvc.Paging;
 
 internal class Program
@@ -23,12 +25,12 @@ internal class Program
             options.ViewName = "Bootstrap4";
             options.PageParameterName = "pageindex";
         });
-
+        
         var connString = builder.Configuration.GetConnectionString("DefaultConnection");
         Console.WriteLine($"Connection string usada: {connString}");
 
         builder.Services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer(connString));
+            options.UseNpgsql(connString));
 
         FastReport.Utils.RegisteredObjects.AddConnection(typeof(MsSqlDataConnection));
 
