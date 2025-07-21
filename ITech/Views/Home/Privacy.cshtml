@@ -1,6 +1,43 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Política de Privacidade";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<section class="container py-5">
+    <div class="text-center mb-4">
+        <h1 class="display-4">@ViewData["Title"]</h1>
+        <p class="lead text-muted">Saiba como protegemos e utilizamos suas informações</p>
+    </div>
+
+    <div class="card shadow-lg border-0">
+        <div class="card-body px-4 py-5">
+            <h5 class="mb-3">📋 Coleta de Informações</h5>
+            <p>
+                Coletamos apenas os dados essenciais para fornecer uma melhor experiência ao usuário, como nome, e-mail e preferências de navegação.
+            </p>
+
+            <h5 class="mt-4 mb-3">🔒 Segurança dos Dados</h5>
+            <p>
+                Seus dados são armazenados com segurança. Utilizamos criptografia e medidas técnicas rigorosas para proteger suas informações.
+            </p>
+
+            <h5 class="mt-4 mb-3">👥 Compartilhamento de Dados</h5>
+            <p>
+                Não vendemos nem compartilhamos suas informações pessoais com terceiros sem seu consentimento, exceto quando exigido por lei.
+            </p>
+
+            <h5 class="mt-4 mb-3">🕐 Tempo de Retenção</h5>
+            <p>
+                Armazenamos seus dados apenas pelo tempo necessário para cumprir os propósitos mencionados nesta política.
+            </p>
+
+            <h5 class="mt-4 mb-3">📩 Contato</h5>
+            <p>
+                Em caso de dúvidas sobre esta política, entre em contato conosco: <a href="mailto:itech@hotmail.com" style="color: cornflowerblue">itech@hotmail.com</a>
+            </p>
+
+            <div class="text-end mt-4">
+                <small class="text-muted">Última atualização: @DateTime.Now.ToString("dd/MM/yyyy")</small>
+            </div>
+        </div>
+    </div>
+</section>

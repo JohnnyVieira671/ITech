@@ -4,25 +4,32 @@
     ViewData["Title"] = "Index";
 }
 
-<h3>Serviços</h3>
-
+<h2>Serviços</h2>
+<hr />
+<br />
 <form method="get" class="form-inline">
-    <input name="filter" class="form-control" placeholder="filtro"
+    <input name="filter" class="form-control" placeholder="Filtrar Serviços"
            value="@Model.RouteValue["Filter"]" />
-    <button type="submit" class="btn btn-info">
+    <button type="submit" class="btn btn-info" style="margin-top:10px">
         <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Procurar
     </button>
 
 </form>
+<br /> <br />
+
 
 <h4>Total de Serviços : @Model.TotalRecordCount</h4>
+<br />
+
+<h4>
+    <a asp-action="Create">Adicionar novo Serviço</a>
+</h4>
+
+<br />
 <div>
     <vc:pager paging-list="@Model"></vc:pager>
 </div>
 
-<p>
-    <a asp-action="Create">Adicionar novo Serviço</a> 
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -74,11 +81,17 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Tecnicos.TecnicoNome)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.ServicoId">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.ServicoId">Detalhes</a> |
-                    <a asp-action="Delete" asp-route-id="@item.ServicoId">Deletar</a>
-            </td>
+                <td>
+                    <a asp-controller="AdminServicos" asp-action="Edit" asp-route-id="@item.ServicoId" class="btn btn-sm btn-warning me-1">
+                        ✏️ Editar
+                    </a>
+                    <a asp-controller="AdminServicos" asp-action="Details" asp-route-id="@item.ServicoId" class="btn btn-sm btn-primary me-1">
+                        🔍 Detalhes
+                    </a>
+                    <a asp-controller="AdminServicos" asp-action="Delete" asp-route-id="@item.ServicoId" class="btn btn-sm btn-danger">
+                        🗑️ Deletar
+                    </a>
+                </td>
         </tr>
 }
     </tbody>

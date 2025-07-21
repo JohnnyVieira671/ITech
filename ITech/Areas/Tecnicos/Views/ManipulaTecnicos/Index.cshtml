@@ -32,8 +32,13 @@
                 <td>@Html.DisplayFor(modelItem => item.Endereco)</td>
                 <td>@(item.IsJuridica ? "Jurídica" : "Física")</td>
                 <td>
-                    <a asp-area="Tecnicos" asp-controller="ManipulaTecnicos" asp-action="Edit" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-primary">Editar Dados</a>
-                    <a asp-area="Tecnicos" asp-controller="ManipulaTecnicos" asp-action="Delete" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-danger">Deletar Conta</a>
+                        <a asp-area="Tecnicos" asp-controller="ManipulaTecnicos" asp-action="Edit" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-warning me-1">
+                            ✏️ Editar Dados
+                        </a>
+
+                        <a asp-area="Tecnicos" asp-controller="ManipulaTecnicos" asp-action="Delete" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-danger">
+                            🗑️ Deletar Conta
+                        </a>
                 </td>
             </tr>
             }

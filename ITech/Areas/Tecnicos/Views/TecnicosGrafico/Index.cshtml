@@ -1,6 +1,10 @@
-﻿<title>@ViewData["Title"] - Gráfico de Vendas</title>
+﻿@{
+    ViewData["Title"] = "Gráfico de Vendas Anuais";
+}
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<h2>@ViewData["Title"]</h2>
 
 <div id="chart_div" style="width: 900px; height: 500px;"></div>
 

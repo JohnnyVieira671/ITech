@@ -1,18 +1,40 @@
-html {
-  font-size: 14px;
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: background-color 0.3s, padding 0.3s;
+    background-color: transparent;
+    padding: 30px 20px;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    header.scrolled {
+        background-color: #fff;
+        padding: 10px 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+/*.top-bar {
+    display: flex;
+    justify-content: flex-end;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.icons-right a {
+    color: #000;
+    font-size: 20px;
+    margin-left: 15px;
+    text-decoration: none;
 }
 
-body {
-  margin-bottom: 60px;
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
+
+.logo {
+    height: 80px;
+    transition: height 0.3s;
+}*/
+
+

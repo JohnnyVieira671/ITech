@@ -54,8 +54,13 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-area="Tecnicos" asp-controller="TecnicosServico" asp-action="Edit" asp-route-id="@Model?.ServicoId">Edit</a> |
-    <a asp-area="Tecnicos" asp-controller="TecnicosServico" asp-action="Index">Back to List</a>
-   
+
+<div class="mt-4">
+    <a asp-area="Tecnicos" asp-controller="TecnicosServico" asp-action="Edit" asp-route-id="@Model?.ServicoId" class="btn btn-warning me-2">
+        ✏️ Editar
+    </a>
+    <a asp-area="Tecnicos" asp-controller="TecnicosServico" asp-action="Index" class="btn btn-secondary">
+        🔙 Voltar à Lista
+    </a>
 </div>
+

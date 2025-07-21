@@ -78,7 +78,13 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.PedidoId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+<div class="mt-4">
+    <a asp-action="Edit" asp-route-id="@Model?.PedidoId" class="btn btn-warning me-2">
+        ✏️ Editar
+    </a>
+    <a asp-action="Index" class="btn btn-secondary">
+        🔙 Voltar à Lista
+    </a>
 </div>
+

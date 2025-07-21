@@ -15,15 +15,15 @@
                     <input type="date" class="form-control" name="maxDate" value=@ViewData["maxDate"] />
                 </div>
             </div>
-            <button type="submit" class="btn btn-success">Filtrar</button>
+            <button type="submit" class="btn btn-success" style="margin-top:10px">Procurar</button>
         </form>
     </div>
 </nav>
 
 <div class="panel panel-primary">
     <div class="panel-heading">
-        <h3 class="panel-title">Total de Pedidos = @Model.Count()</h3>
-        <h3 class="panel-title">Total de Lanches nos Pedidos = @Model.Sum(obj => obj.TotalItensPedido).ToString()</h3>
+        <h3 class="panel-title">Total de Pedidos no relatório    = @Model.Count()</h3>
+        <h3 class="panel-title">Total de Serviços nos relatório  = @Model.Sum(obj => obj.TotalItensPedido).ToString()</h3>
         <h3 class="panel-title">Total de Valor total dos Pedidos = @Model.Sum(obj => obj.PedidoTotal).ToString("c")</h3>
     </div>
     <div class="panel-body">

@@ -7,7 +7,6 @@ using ITech.Repositories;
 using ITech.Repositories.Interfaces;
 using ITech.Services;
 using Microsoft.AspNetCore.Identity;
-using Npgsql.EntityFrameworkCore.PostgreSQL;
 using Microsoft.EntityFrameworkCore;
 
 using ReflectionIT.Mvc.Paging;
@@ -30,7 +29,7 @@ internal class Program
         Console.WriteLine($"Connection string usada: {connString}");
 
         builder.Services.AddDbContext<AppDbContext>(options =>
-            options.UseNpgsql(connString));
+            options.UseSqlServer(connString));
 
         FastReport.Utils.RegisteredObjects.AddConnection(typeof(MsSqlDataConnection));
 
@@ -100,6 +99,9 @@ internal class Program
             var seedUserRoleInitial = services.GetRequiredService<ISeedUserRoleInitial>();
             seedUserRoleInitial.SeedRoles();
             seedUserRoleInitial.SeedUser();
+
+            //var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            //db.Database.Migrate();
         }
 
         // Configuração do pipeline HTTP

@@ -72,16 +72,7 @@ namespace ITech.Models
 
             if (carrinhoCompraItem != null)
             {
-                
-                if (carrinhoCompraItem.Quantidade > 1)
-                {
-                    carrinhoCompraItem.Quantidade--;
-                    quantidadeLocal = carrinhoCompraItem.Quantidade;
-                }
-                else
-                {
-                    _context.CarrinhoCompraItens.Remove(carrinhoCompraItem);
-                }
+                _context.CarrinhoCompraItens.Remove(carrinhoCompraItem);
 
             }
             _context.SaveChanges();

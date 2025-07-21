@@ -25,6 +25,11 @@ namespace ITech.Controllers
             var itens = _carrinhoCompra.GetCarrinhoCompraItens();
             _carrinhoCompra.CarrinhoCompraItens = itens;
 
+            if(itens.Count <= 0)
+            {
+                return RedirectToAction("Index", "Home", new { area = (string?)null });
+            }
+
             var carrinhoCompraVM = new CarrinhoCompraViewModel
             {
                 CarrinhoCompra = _carrinhoCompra,

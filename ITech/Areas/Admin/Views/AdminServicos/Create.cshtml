@@ -46,13 +46,14 @@
                 <select asp-for="TecnicoId" class="form-control" asp-items="ViewBag.TecnicoId"></select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="✅ Adicionar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
+<br />
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-area="Admin" asp-controller="AdminServicos" asp-action="Index" class="btn btn-secondary">🔙 Voltar à Lista</a>
 </div>
 

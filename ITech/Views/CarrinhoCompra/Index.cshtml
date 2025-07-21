@@ -44,8 +44,8 @@
                         </td>
                         <td>
                             <a asp-area="" asp-controller="CarrinhoCompra" asp-action="RemoverItemDoCarrinhoCompras"
-                               asp-route-id=@item.Servico.ServicoId>
-                                Remover item @item.Servico.ServicoId
+                               asp-route-id=@item.Servico.ServicoId onclick="return confirm('Tem certeza que deseja remover este item do carrinho?');">
+                                Remover item 
                             </a>
                         </td>
                     </tr>

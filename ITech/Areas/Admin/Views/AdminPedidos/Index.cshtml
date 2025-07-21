@@ -4,25 +4,33 @@
     ViewData["Title"] = "Index";
 }
 
-<h3>Pedidos</h3>
+<h2>Pedidos</h2>
+<hr />
+<br />
 
 <form method="get" class="form-inline">
-    <input name="filter" class="form-control" placeholder="filtro" 
+    <input name="filter" class="form-control" placeholder="Filtrar Pedidos" 
     value="@Model.RouteValue["Filter"]"/>
-<button type="submit" class="btn btn-info">
+    <button type="submit" class="btn btn-info" style="margin-top:10px">
     <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Procurar
 </button>
 
 </form>
 
+<br />
+<br />
+
 <h4>Total de Pedidos : @Model.TotalRecordCount</h4>
+<br />
+
+<h4>
+    <a asp-action="Create">Adicionar novo Pedido</a>
+</h4>
+<br />
 <div>
     <vc:pager paging-list ="@Model"></vc:pager>
 </div>
 
-<p>
-    <a asp-action="Create">Criar novo Pedido</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -98,13 +106,23 @@
             <td>
                 @Html.DisplayFor(modelItem => item.PedidoEntregueEm)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.PedidoId">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.PedidoId">Detlhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.PedidoId">Deletar</a> |
-                <a asp-action="PedidoServicos" asp-route-id ="@item.PedidoId">Ver Itens</a>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PedidoId" class="btn btn-sm btn-warning me-1">
+                        ✏️ Editar
+                    </a>
 
-            </td>
+                    <a asp-action="Details" asp-route-id="@item.PedidoId" class="btn btn-sm btn-primary me-1">
+                        🔍 Detalhes
+                    </a>
+
+                    <a asp-action="Delete" asp-route-id="@item.PedidoId" class="btn btn-sm btn-danger me-1">
+                        🗑️ Deletar
+                    </a>
+
+                    <a asp-action="PedidoServicos" asp-route-id="@item.PedidoId" class="btn btn-sm btn-success">
+                        📦 Ver Itens
+                    </a>
+                </td>
         </tr>
 }
     </tbody>

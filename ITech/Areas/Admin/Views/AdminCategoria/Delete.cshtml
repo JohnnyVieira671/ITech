@@ -27,7 +27,9 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="CategoriaId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="🗑️ Delete" class="btn btn-danger" />
+
+        <a asp-area="Admin" asp-controller="AdminCategoria" asp-action="Index" class="btn btn-secondary">🔙 Voltar à Lista</a>
+        
     </form>
 </div>

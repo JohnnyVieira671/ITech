@@ -4,14 +4,17 @@
     ViewData["Title"] = "Técnicos";
 }
 
-<h1>Lista de Técnicos</h1>
+<h2>Técnicos</h2>
+<hr />
+<br />
 
 <form method="get" class="form-inline mb-2">
     <input name="filter" class="form-control" placeholder="Filtrar técnicos"
            value="@Model.RouteValue["filter"]" />
-    <button type="submit" class="btn btn-primary ml-2">Filtrar</button>
+          
+    <button type="submit" class="btn btn-info" style="margin-top:10px">Procurar</button>
 </form>
-
+<br /> <br />
 <vc:pager paging-list="@Model"></vc:pager>
 
 <table class="table table-striped">
@@ -37,7 +40,9 @@
                 <td>@Html.DisplayFor(modelItem => item.Endereco)</td>
                 <td>@(item.IsJuridica ? "Jurídica" : "Física")</td>
                 <td>
-                    <a asp-area="Admin" asp-controller="AdminTecnicos" asp-action="Details" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-info">Detalhes</a>
+                    <a asp-area="Admin" asp-controller="AdminTecnicos" asp-action="Details" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-primary me-1">
+                        🔍 Detalhes
+                    </a>
                 </td>
             </tr>
         }
