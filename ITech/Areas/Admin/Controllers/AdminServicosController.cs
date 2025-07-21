@@ -40,7 +40,7 @@ namespace ITech.Areas.Admin.Controllers
                                                  p.Tecnicos.TecnicoNome.Contains(filter));
             }
 
-            var model = await PagingList.CreateAsync(resultado, 3, pageindex, sort, "DescricaoCurta");
+            var model = await PagingList.CreateAsync(resultado, 5, pageindex, sort, "DescricaoCurta");
             model.RouteValue = new RouteValueDictionary { { "filter", filter } };
 
             return View(model);

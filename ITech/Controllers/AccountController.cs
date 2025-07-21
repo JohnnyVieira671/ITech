@@ -88,8 +88,8 @@ namespace ITech.Controllers
                         await _userManager.AddToRoleAsync(user, "Member");
                     }
 
-                    if (!string.IsNullOrEmpty(loginVM.ReturnUrl) && Url.IsLocalUrl(loginVM.ReturnUrl))
-                        return Redirect(loginVM.ReturnUrl);
+                    //if (!string.IsNullOrEmpty(loginVM.ReturnUrl) && Url.IsLocalUrl(loginVM.ReturnUrl))
+                    //    return Redirect(loginVM.ReturnUrl);
 
                     return RedirectToAction("Index", "Home", new { area = "" });
                 }

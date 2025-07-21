@@ -31,7 +31,7 @@ namespace ITech.Areas.Admin.Controllers
                                                  p.Email.Contains(filter));
             }
 
-            var model = await PagingList.CreateAsync(resultado, 3, pageindex, sort, "TecnicoNome");
+            var model = await PagingList.CreateAsync(resultado, 5, pageindex, sort, "TecnicoNome");
             model.RouteValue = new RouteValueDictionary { { "filter", filter } };
 
             return View(model);

@@ -3,6 +3,70 @@
   "WorkspaceRootPath": "C:\\Users\\trans\\source\\Repos\\ITech\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\controllers\\tecnicosservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\controllers\\tecnicosservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\controllers\\tecnicosgraficocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\controllers\\tecnicosgraficocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\controllers\\tecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\controllers\\tecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\controllers\\manipulatecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\controllers\\manipulatecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\admintecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\admintecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\adminservicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\adminservicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\adminrelatoriovendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\adminrelatoriovendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\adminpedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\adminpedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\views\\admincategoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\views\\admincategoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\admincategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\admincategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\views\\manipulatecnicos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\views\\manipulatecnicos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\views\\adminservicos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\views\\adminservicos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\.gitignore||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\.gitignore||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -13,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\views\\pedido\\checkoutcompleto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\views\\pedido\\checkoutcompleto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\views\\tecnicosgrafico\\vendassemanal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -111,14 +167,6 @@
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\views\\manipulatecnicos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\views\\tecnicos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\views\\tecnicos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -139,16 +187,8 @@
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\views\\adminpedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\views\\admincategoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\views\\admincategoria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\views\\admincategoria\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\views\\admincategoria\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\views\\adminservicos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\views\\adminservicos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\views\\admincategoria\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -263,16 +303,8 @@
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\views\\tecnicosgrafico\\vendasmensal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\controllers\\tecnicosgraficocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\controllers\\tecnicosgraficocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\services\\tecnicosgraficovendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\services\\tecnicosgraficovendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\controllers\\tecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\controllers\\tecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\controllers\\tecnicosrelatoriovendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -291,10 +323,6 @@
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\admingraficocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\adminrelatoriovendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\adminrelatoriovendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\services\\adminrelatorioservicosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\services\\adminrelatorioservicosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -305,14 +333,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\services\\adminrelatoriovendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\services\\adminrelatoriovendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\controllers\\tecnicosservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\controllers\\tecnicosservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\controllers\\manipulatecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\controllers\\manipulatecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\models\\servico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -339,36 +359,16 @@
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\adminservicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\adminservicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\tecnicos\\views\\tecnicosservico\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\tecnicos\\views\\tecnicosservico\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\admintecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\admintecnicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\views\\manipulatecnicos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\views\\manipulatecnicos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\models\\filemanagermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\models\\filemanagermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\admincategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\admincategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\areas\\admin\\controllers\\adminpedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|solutionrelative:itech\\areas\\admin\\controllers\\adminpedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E948DF3-5133-4E5F-8210-8333597003A5}|ITech\\ITech.csproj|c:\\users\\trans\\source\\repos\\itech\\itech\\services\\seeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -474,47 +474,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 16,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\.gitignore",
-              "RelativeDocumentMoniker": "ITech\\.gitignore",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\.gitignore",
-              "RelativeToolTip": "ITech\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-07-21T13:35:41.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CheckoutCompleto.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Pedido\\CheckoutCompleto.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Views\\Pedido\\CheckoutCompleto.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Pedido\\CheckoutCompleto.cshtml",
-              "RelativeToolTip": "ITech\\Views\\Pedido\\CheckoutCompleto.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-21T13:24:43.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RelatorioVendasSimples.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\RelatorioVendasSimples.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\RelatorioVendasSimples.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\RelatorioVendasSimples.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\RelatorioVendasSimples.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-21T13:03:15.732Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -529,163 +490,228 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Delete.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Delete.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwD0AAACBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:23:43.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "RelatorioVendasSimples.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\RelatorioVendasSimples.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\RelatorioVendasSimples.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\RelatorioVendasSimples.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\RelatorioVendasSimples.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T12:16:29.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Edit.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Edit.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T14:51:44.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Details.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Details.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Details.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Details.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T14:51:31.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Details.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Details.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Details.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Details.cshtml",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAwDcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:23:47.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Delete.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Delete.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADwAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T14:51:15.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T11:47:56.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\Index.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\Index.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\Index.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T13:23:24.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VendasSemanal.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasSemanal.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasSemanal.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasSemanal.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasSemanal.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T13:24:09.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CarrinhoCompraController.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Controllers\\CarrinhoCompraController.cs",
               "RelativeDocumentMoniker": "ITech\\Controllers\\CarrinhoCompraController.cs",
               "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Controllers\\CarrinhoCompraController.cs",
               "RelativeToolTip": "ITech\\Controllers\\CarrinhoCompraController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAywBsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvx0AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-08T13:07:08.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CarrinhoCompra.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Models\\CarrinhoCompra.cs",
-              "RelativeDocumentMoniker": "ITech\\Models\\CarrinhoCompra.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Models\\CarrinhoCompra.cs",
-              "RelativeToolTip": "ITech\\Models\\CarrinhoCompra.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAYwFEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T13:08:37.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ITech\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ITech\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAswFsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T12:29:17.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminCategoria\\Index.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminCategoria\\Index.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T11:23:14.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminCategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminCategoriaController.cs",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminCategoriaController.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminCategoriaController.cs",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminCategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T11:21:25.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminPedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminPedidosController.cs",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminPedidosController.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminPedidosController.cs",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminPedidosController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwB8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:47:46.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminRelatorioVendasController.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminRelatorioVendasController.cs",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminRelatorioVendasController.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminRelatorioVendasController.cs",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminRelatorioVendasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T14:33:06.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminServicosController.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminServicosController.cs",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminServicosController.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminServicosController.cs",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminServicosController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T11:11:35.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminTecnicosController.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminTecnicosController.cs",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminTecnicosController.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminTecnicosController.cs",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminTecnicosController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBsAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T13:31:46.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManipulaTecnicosController.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\ManipulaTecnicosController.cs",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Controllers\\ManipulaTecnicosController.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\ManipulaTecnicosController.cs",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Controllers\\ManipulaTecnicosController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:30:42.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "TecnicosController.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosController.cs",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosController.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosController.cs",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T13:53:58.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TecnicosGraficoController.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosGraficoController.cs",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosGraficoController.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosGraficoController.cs",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosGraficoController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:57:57.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TecnicosServico.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosServico.cs",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosServico.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosServico.cs",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosServico.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T14:12:29.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T11:33:30.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T13:54:38.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\ManipulaTecnicos\\Create.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Views\\ManipulaTecnicos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\ManipulaTecnicos\\Create.cshtml",
+              "RelativeToolTip": "ITech\\Views\\ManipulaTecnicos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T14:28:54.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Create.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Create.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T11:23:40.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\.gitignore",
+              "RelativeDocumentMoniker": "ITech\\.gitignore",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\.gitignore",
+              "RelativeToolTip": "ITech\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-07-21T13:35:41.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "ContatoController.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Controllers\\ContatoController.cs",
               "RelativeDocumentMoniker": "ITech\\Controllers\\ContatoController.cs",
@@ -693,12 +719,155 @@
               "RelativeToolTip": "ITech\\Controllers\\ContatoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:12:22.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T14:12:22.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
+              "Title": "CarrinhoCompra.cs",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Models\\CarrinhoCompra.cs",
+              "RelativeDocumentMoniker": "ITech\\Models\\CarrinhoCompra.cs",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Models\\CarrinhoCompra.cs",
+              "RelativeToolTip": "ITech\\Models\\CarrinhoCompra.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwFEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T13:08:37.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "VendasSemanal.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasSemanal.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasSemanal.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasSemanal.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasSemanal.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T13:24:09.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\Index.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\Index.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T13:23:24.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminGrafico\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T11:47:56.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Delete.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Delete.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADwAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T14:51:15.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Details.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Details.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Details.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwDcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T11:23:47.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Details.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Details.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Details.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Details.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T14:51:31.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Edit.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T14:51:44.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RelatorioVendasSimples.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\RelatorioVendasSimples.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\RelatorioVendasSimples.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\RelatorioVendasSimples.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\RelatorioVendasSimples.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T12:16:29.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Delete.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Delete.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwD0AAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T11:23:43.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RelatorioVendasSimples.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\RelatorioVendasSimples.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\RelatorioVendasSimples.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\RelatorioVendasSimples.cshtml",
+              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\RelatorioVendasSimples.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T13:03:15.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CheckoutCompleto.cshtml",
+              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "RelativeDocumentMoniker": "ITech\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "RelativeToolTip": "ITech\\Views\\Pedido\\CheckoutCompleto.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T13:24:43.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ITech.csproj",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\ITech.csproj",
               "RelativeDocumentMoniker": "ITech\\ITech.csproj",
@@ -706,12 +875,11 @@
               "RelativeToolTip": "ITech\\ITech.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-07T14:21:53.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T14:21:53.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 35,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Edit.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Edit.cshtml",
@@ -719,12 +887,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Edit.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:23:50.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T11:23:50.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\CarrinhoCompra\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Views\\CarrinhoCompra\\Index.cshtml",
@@ -732,12 +899,11 @@
               "RelativeToolTip": "ITech\\Views\\CarrinhoCompra\\Index.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAACWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T13:49:14.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T13:49:14.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ITech\\Controllers\\HomeController.cs",
@@ -745,12 +911,11 @@
               "RelativeToolTip": "ITech\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T12:47:19.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T12:47:19.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Index.cshtml",
@@ -758,12 +923,11 @@
               "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Index.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAIwFkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T14:05:28.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T14:05:28.935Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Index.cshtml",
@@ -771,12 +935,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Index.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAFEAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:23:53.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T11:23:53.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\ManipulaTecnicos\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\ManipulaTecnicos\\Index.cshtml",
@@ -784,12 +947,11 @@
               "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\ManipulaTecnicos\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T14:38:26.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T14:38:26.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\ManipulaTecnicos\\Delete.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\ManipulaTecnicos\\Delete.cshtml",
@@ -797,12 +959,11 @@
               "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\ManipulaTecnicos\\Delete.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T14:35:29.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T14:35:29.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\ManipulaTecnicos\\Edit.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\ManipulaTecnicos\\Edit.cshtml",
@@ -810,38 +971,11 @@
               "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\ManipulaTecnicos\\Edit.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T14:37:28.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T14:37:28.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T13:54:38.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:33:30.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\Tecnicos\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\Tecnicos\\Index.cshtml",
@@ -849,12 +983,11 @@
               "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\Tecnicos\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T14:23:21.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T14:23:21.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 42,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
@@ -862,12 +995,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T12:14:09.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T12:14:09.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 43,
               "Title": "VendasSemanal.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminGrafico\\VendasSemanal.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminGrafico\\VendasSemanal.cshtml",
@@ -875,12 +1007,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminGrafico\\VendasSemanal.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T11:45:58.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T11:45:58.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\Index.cshtml",
@@ -888,12 +1019,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminRelatorioVendas\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T14:15:03.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T14:15:03.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\Index.cshtml",
@@ -901,12 +1031,11 @@
               "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Views\\TecnicosRelatorioVendas\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T13:21:39.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T13:21:39.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 44,
               "Title": "VendasMensal.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminGrafico\\VendasMensal.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminGrafico\\VendasMensal.cshtml",
@@ -914,12 +1043,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminGrafico\\VendasMensal.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T11:36:48.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T11:36:48.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminPedidos\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Index.cshtml",
@@ -927,25 +1055,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T13:49:42.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:49:42.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminCategoria\\Index.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Index.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminCategoria\\Index.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:23:14.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 46,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminCategoria\\Create.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Create.cshtml",
@@ -953,25 +1067,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Create.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:22:17.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T11:22:17.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Create.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminServicos\\Create.cshtml",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminServicos\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:23:40.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 47,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminCategoria\\Delete.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Delete.cshtml",
@@ -979,12 +1079,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Delete.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:22:37.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T11:22:37.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 48,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminCategoria\\Details.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Details.cshtml",
@@ -992,12 +1091,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Details.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:22:59.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T11:22:59.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 49,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminPedidos\\Details.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Details.cshtml",
@@ -1005,12 +1103,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Details.cshtml",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAFUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T13:49:36.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:49:36.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 50,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminPedidos\\Create.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Create.cshtml",
@@ -1018,12 +1115,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Create.cshtml",
               "ViewState": "AgIAAFUAAAAAAAAAAAAIwGkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T13:49:16.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:49:16.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 51,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminPedidos\\Edit.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Edit.cshtml",
@@ -1031,12 +1127,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Edit.cshtml",
               "ViewState": "AgIAAHwAAAAAAAAAAAAIwIQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T13:49:39.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:49:39.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 52,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminPedidos\\Delete.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Delete.cshtml",
@@ -1044,12 +1139,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\Delete.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAFMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T13:49:33.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:49:33.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 53,
               "Title": "PedidoServicos.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminPedidos\\PedidoServicos.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\PedidoServicos.cshtml",
@@ -1057,12 +1151,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminPedidos\\PedidoServicos.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T13:49:50.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T13:49:50.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 54,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminCategoria\\Edit.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Edit.cshtml",
@@ -1070,12 +1163,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminCategoria\\Edit.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T11:23:05.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T11:23:05.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 55,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminTecnicos\\Details.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminTecnicos\\Details.cshtml",
@@ -1083,12 +1175,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminTecnicos\\Details.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T14:36:26.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T14:36:26.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 56,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Views\\AdminTecnicos\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Views\\AdminTecnicos\\Index.cshtml",
@@ -1096,12 +1187,11 @@
               "RelativeToolTip": "ITech\\Areas\\Admin\\Views\\AdminTecnicos\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T13:24:08.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T13:24:08.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 60,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Views\\Home\\Index.cshtml",
@@ -1113,7 +1203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 58,
               "Title": "_Footer.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Shared\\_Footer.cshtml",
               "RelativeDocumentMoniker": "ITech\\Views\\Shared\\_Footer.cshtml",
@@ -1125,7 +1215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 59,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Contato\\Index.cshtml",
               "RelativeDocumentMoniker": "ITech\\Views\\Contato\\Index.cshtml",
@@ -1137,7 +1227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 57,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "ITech\\Views\\Home\\Privacy.cshtml",
@@ -1149,7 +1239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 61,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ITech\\Views\\Shared\\_Layout.cshtml",
@@ -1161,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 62,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ITech\\Views\\Account\\Register.cshtml",
@@ -1173,7 +1263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 63,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ITech\\Views\\Account\\Login.cshtml",
@@ -1185,7 +1275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 64,
               "Title": "ServicoController.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Controllers\\ServicoController.cs",
               "RelativeDocumentMoniker": "ITech\\Controllers\\ServicoController.cs",
@@ -1197,7 +1287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 65,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\appsettings.json",
               "RelativeDocumentMoniker": "ITech\\appsettings.json",
@@ -1209,7 +1299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 66,
               "Title": "LanchesMac.css",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\css\\LanchesMac.css",
               "RelativeDocumentMoniker": "ITech\\wwwroot\\css\\LanchesMac.css",
@@ -1221,7 +1311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 67,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Program.cs",
               "RelativeDocumentMoniker": "ITech\\Program.cs",
@@ -1233,7 +1323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 72,
               "Title": "IServicoRepository.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Repositories\\Interfaces\\IServicoRepository.cs",
               "RelativeDocumentMoniker": "ITech\\Repositories\\Interfaces\\IServicoRepository.cs",
@@ -1245,7 +1335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 68,
               "Title": "ServicoListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\ViewModels\\ServicoListViewModel.cs",
               "RelativeDocumentMoniker": "ITech\\ViewModels\\ServicoListViewModel.cs",
@@ -1257,19 +1347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "TecnicosController.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosController.cs",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosController.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosController.cs",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T13:53:58.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 71,
               "Title": "HomeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\ViewModels\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "ITech\\ViewModels\\HomeViewModel.cs",
@@ -1281,7 +1359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 69,
               "Title": "ServicoRepository.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Repositories\\ServicoRepository.cs",
               "RelativeDocumentMoniker": "ITech\\Repositories\\ServicoRepository.cs",
@@ -1293,7 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 70,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ITech\\ViewModels\\LoginViewModel.cs",
@@ -1305,7 +1383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 73,
               "Title": "_ServicosResumo.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\Shared\\_ServicosResumo.cshtml",
               "RelativeDocumentMoniker": "ITech\\Views\\Shared\\_ServicosResumo.cshtml",
@@ -1317,7 +1395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 75,
               "Title": "TecnicosGraficoVendasService.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Services\\TecnicosGraficoVendasService.cs",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Services\\TecnicosGraficoVendasService.cs",
@@ -1329,7 +1407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 74,
               "Title": "VendasMensal.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasMensal.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosGrafico\\VendasMensal.cshtml",
@@ -1341,19 +1419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "TecnicosGraficoController.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosGraficoController.cs",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosGraficoController.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosGraficoController.cs",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosGraficoController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA1wBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T12:57:57.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 76,
               "Title": "TecnicosRelatorioVendasController.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosRelatorioVendasController.cs",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosRelatorioVendasController.cs",
@@ -1365,7 +1431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 77,
               "Title": "TecnicosRelatorioServicosService.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Services\\TecnicosRelatorioServicosService.cs",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Services\\TecnicosRelatorioServicosService.cs",
@@ -1377,7 +1443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 78,
               "Title": "TecnicosRelatorioVendasService.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Services\\TecnicosRelatorioVendasService.cs",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Services\\TecnicosRelatorioVendasService.cs",
@@ -1389,19 +1455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "AdminRelatorioVendasController.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminRelatorioVendasController.cs",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminRelatorioVendasController.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminRelatorioVendasController.cs",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminRelatorioVendasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:33:06.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 79,
               "Title": "AdminGraficoController.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminGraficoController.cs",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminGraficoController.cs",
@@ -1413,7 +1467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 80,
               "Title": "AdminRelatorioServicosService.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Services\\AdminRelatorioServicosService.cs",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Services\\AdminRelatorioServicosService.cs",
@@ -1425,7 +1479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 81,
               "Title": "AdminGraficoVendasService.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Services\\AdminGraficoVendasService.cs",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Services\\AdminGraficoVendasService.cs",
@@ -1437,7 +1491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 84,
               "Title": "PedidoDetalhe.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Models\\PedidoDetalhe.cs",
               "RelativeDocumentMoniker": "ITech\\Models\\PedidoDetalhe.cs",
@@ -1449,7 +1503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 85,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Models\\Pedido.cs",
               "RelativeDocumentMoniker": "ITech\\Models\\Pedido.cs",
@@ -1461,7 +1515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 83,
               "Title": "Servico.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Models\\Servico.cs",
               "RelativeDocumentMoniker": "ITech\\Models\\Servico.cs",
@@ -1473,7 +1527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 82,
               "Title": "AdminRelatorioVendasService.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Services\\AdminRelatorioVendasService.cs",
               "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Services\\AdminRelatorioVendasService.cs",
@@ -1485,31 +1539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "ManipulaTecnicosController.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\ManipulaTecnicosController.cs",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Controllers\\ManipulaTecnicosController.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\ManipulaTecnicosController.cs",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Controllers\\ManipulaTecnicosController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAIwBIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T14:30:42.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "TecnicosServico.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosServico.cs",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosServico.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Controllers\\TecnicosServico.cs",
-              "RelativeToolTip": "ITech\\Areas\\Tecnicos\\Controllers\\TecnicosServico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T14:12:29.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 86,
               "Title": "ManipulaTecnicosController.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Controllers\\ManipulaTecnicosController.cs",
               "RelativeDocumentMoniker": "ITech\\Controllers\\ManipulaTecnicosController.cs",
@@ -1521,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 87,
               "Title": "20250716115424_AtualizarServicos.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Migrations\\20250716115424_AtualizarServicos.cs",
               "RelativeDocumentMoniker": "ITech\\Migrations\\20250716115424_AtualizarServicos.cs",
@@ -1533,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 88,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "ITech\\Controllers\\PedidoController.cs",
@@ -1545,19 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "AdminServicosController.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminServicosController.cs",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminServicosController.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminServicosController.cs",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminServicosController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAcwHMAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T11:11:35.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 89,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Create.cshtml",
               "RelativeDocumentMoniker": "ITech\\Areas\\Tecnicos\\Views\\TecnicosServico\\Create.cshtml",
@@ -1569,31 +1587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\ManipulaTecnicos\\Create.cshtml",
-              "RelativeDocumentMoniker": "ITech\\Views\\ManipulaTecnicos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Views\\ManipulaTecnicos\\Create.cshtml",
-              "RelativeToolTip": "ITech\\Views\\ManipulaTecnicos\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAIBJwAwAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T14:28:54.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "AdminTecnicosController.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminTecnicosController.cs",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminTecnicosController.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminTecnicosController.cs",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminTecnicosController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T13:31:46.555Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 90,
               "Title": "Tecnico.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Models\\Tecnico.cs",
               "RelativeDocumentMoniker": "ITech\\Models\\Tecnico.cs",
@@ -1605,7 +1599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 91,
               "Title": "FileManagerModel.cs",
               "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Models\\FileManagerModel.cs",
               "RelativeDocumentMoniker": "ITech\\Models\\FileManagerModel.cs",
@@ -1614,30 +1608,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-09T14:19:12.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 90,
-              "Title": "AdminCategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminCategoriaController.cs",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminCategoriaController.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminCategoriaController.cs",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminCategoriaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T11:21:25.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "AdminPedidosController.cs",
-              "DocumentMoniker": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminPedidosController.cs",
-              "RelativeDocumentMoniker": "ITech\\Areas\\Admin\\Controllers\\AdminPedidosController.cs",
-              "ToolTip": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\Areas\\Admin\\Controllers\\AdminPedidosController.cs",
-              "RelativeToolTip": "ITech\\Areas\\Admin\\Controllers\\AdminPedidosController.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAmwC8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T13:47:46.072Z"
             },
             {
               "$type": "Document",
