@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Gráfico de Vendas Semanais";
+}
+@{
+    ViewData["Title"] = "Gráfico de Vendas Semanais";
+}
+
+<!-- Google Charts -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- Toastr para mensagens -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<h2>@ViewData["Title"]</h2>
+
+<div id="chart_div" style="width: 100%; height: 500px;"></div>
+
+<script type="text/javascript">
+    google.charts.load('current', { packages: ['corechart'] });
+    google.charts.setOnLoadCallback(CarregaDados);
+
+    function CarregaDados() {
+        $.ajax({
+            url: '@Url.Action("VendasServicos", "TecnicosGrafico", new { area = "Tecnicos" })',
+            data: { dias: 7 },
+            dataType: "json",
+            type: "GET",
+            success: function (data) {
+                if (data.success === false || !data.length) {
+                    toastr.warning(data.message || "Nenhum dado retornado.");
+                    return;
+                }
+
+                console.log("Dados recebidos:", data);
+                GraficoVendasServicos(data);
+            },
+            error: function (xhr, status, error) {
+                toastr.error("Erro ao carregar os dados: " + error);
+            }
+        });
+    }
+
+    function GraficoVendasServicos(data) {
+        const dataArray = [
+            ['Serviço', 'Quantidade', 'Valor (R$)']
+        ];
+
+        data.forEach(item => {
+            const qtd = Number(item.servicoQuantidade);
+            const valor = Number(item.servicoValorTotal);
+            console.log("Servico:", item.descricaoCurta, "Qtd:", qtd, "Valor:", valor);
+            dataArray.push([item.descricaoCurta, qtd, valor]);
+        });
+
+        const chartData = google.visualization.arrayToDataTable(dataArray);
+
+        const options = {
+            title: "Serviços - Vendas nos últimos 7 dias",
+            curveType: 'function',
+            animation: {
+                duration: 1000,
+                easing: 'out',
+                startup: true
+            },
+            legend: { position: 'bottom' },
+            chartArea: { width: '70%' },
+            colors: ['#3366cc', '#dc3912'],
+            hAxis: {
+                title: 'Serviço',
+            },
+            vAxis: {
+                title: 'Quantidade / Valor (R$)',
+                minValue: 0
+            },
+            pointSize: 7
+        };
+
+        const chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+        chart.draw(chartData, options);
+    }
+</script>

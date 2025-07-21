@@ -1,0 +1,128 @@
+﻿@model ITech.Models.Pedido
+
+@{
+    ViewData["Title"] = "Criar Pedido";
+    var servicos = ViewBag.Servicos as List<ITech.Models.Servico>;
+}
+
+<h1>Criar Pedido</h1>
+
+<form asp-action="Create" asp-controller="AdminPedidos" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Nome"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Sobrenome"></label>
+        <input asp-for="Sobrenome" class="form-control" />
+        <span asp-validation-for="Sobrenome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Endereco1"></label>
+        <input asp-for="Endereco1" class="form-control" />
+        <span asp-validation-for="Endereco1" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Endereco2"></label>
+        <input asp-for="Endereco2" class="form-control" />
+        <span asp-validation-for="Endereco2" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cep"></label>
+        <input asp-for="Cep" class="form-control" />
+        <span asp-validation-for="Cep" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Estado"></label>
+        <input asp-for="Estado" class="form-control" />
+        <span asp-validation-for="Estado" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Cidade"></label>
+        <input asp-for="Cidade" class="form-control" />
+        <span asp-validation-for="Cidade" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Telefone"></label>
+        <input asp-for="Telefone" class="form-control" />
+        <span asp-validation-for="Telefone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PedidoEnviado"></label>
+        <input asp-for="PedidoEnviado" class="form-control" />
+        <span asp-validation-for="PedidoEnviado" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PedidoEntregueEm"></label>
+        <input asp-for="PedidoEntregueEm" class="form-control" />
+        <span asp-validation-for="PedidoEntregueEm" class="text-danger"></span>
+    </div>
+
+    <h3>Selecione os Serviços</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Selecionar</th>
+                <th>Descrição</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < servicos.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <input type="checkbox" name="servicoIds" value="@servicos[i].ServicoId"
+                               data-index="@i" onchange="onCheckboxChange(this)" />
+                    </td>
+                    <td>@servicos[i].DescricaoCurta</td>
+                    <td>
+                        <input type="number" name="quantidades" value="0" min="0"
+                               class="form-control" style="width: 80px" data-index="@i" disabled />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-primary">✅ Adicionar</button>
+</form>
+<br />
+<div>
+    <a asp-area="Admin" asp-controller="AdminPedidos" asp-action="Index" class="btn btn-secondary">🔙 Voltar à Lista</a>
+</div>
+
+
+
+@section Scripts {
+    <script>
+        function onCheckboxChange(checkbox) {
+            const index = checkbox.getAttribute("data-index");
+            const input = document.querySelector('input[name="quantidades"][data-index="' + index + '"]');
+            input.disabled = !checkbox.checked;
+            if (!checkbox.checked) input.value = 0;
+        }
+    </script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

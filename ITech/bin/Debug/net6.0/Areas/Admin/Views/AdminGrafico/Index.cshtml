@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Gráfico de Vendas Anuais";
+}
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<h2>@ViewData["Title"]</h2>
+
+<div id="chart_div" style="width: 900px; height: 500px;"></div>
+
+<script type="text/javascript">
+    google.charts.load('current', { packages: ['corechart'] });
+    google.charts.setOnLoadCallback(CarregaDados);
+
+    function CarregaDados() {
+        $.ajax({
+            url: '@Url.Action("VendasServicos", "AdminGrafico")',
+            data: { dias: 360 },
+            dataType: "json",
+            type: "GET",
+            error: function (xhr, status, error) {
+                try {
+                    var err = JSON.parse(xhr.responseText);
+                    toastr.error(err.message || "Erro ao carregar dados.");
+                } catch {
+                    toastr.error("Erro ao carregar dados.");
+                }
+            },
+            success: function (data) {
+                if (!data || data.length === 0) {
+                    toastr.warning("Nenhum dado encontrado para o período informado.");
+                    return;
+                }
+                GraficoVendasServicos(data);
+            }
+        });
+    }
+
+    function GraficoVendasServicos(data) {
+        var dataArray = [
+            ['Serviço', 'Quantidade', 'Valor Total (R$)']
+        ];
+
+        $.each(data, function (i, item) {
+            dataArray.push([item.descricaoCurta, item.servicoQuantidade, item.servicoValorTotal]);
+        });
+
+        var dataTable = google.visualization.arrayToDataTable(dataArray);
+
+        var options = {
+            title: "Serviços - Vendas nos últimos 360 dias",
+            animation: {
+                duration: 3000,
+                easing: 'out',
+                startup: true
+            },
+            chartArea: { width: '70%' },
+            colors: ['#5202b5', '#d2a828'],
+            hAxis: {
+                title: 'Quantidade / Valor Total',
+                minValue: 0
+            },
+            vAxis: {
+                title: 'Serviços'
+            }
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        chart.draw(dataTable, options);
+    }
+</script>

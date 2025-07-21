@@ -1,0 +1,62 @@
+﻿@model ITech.Models.Tecnico
+
+@{
+    ViewData["Title"] = "Editar Técnico";
+}
+
+<h1>Editar</h1>
+
+<h4>Técnico</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-area="Tecnicos" asp-controller="ManipulaTecnicos" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="TecnicoId" />
+
+            <div class="form-group">
+                <label asp-for="TecnicoNome" class="control-label"></label>
+                <input asp-for="TecnicoNome" class="form-control" />
+                <span asp-validation-for="TecnicoNome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DocIdentificacao" class="control-label"></label>
+                <input asp-for="DocIdentificacao" class="form-control" />
+                <span asp-validation-for="DocIdentificacao" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Telefone" class="control-label"></label>
+                <input asp-for="Telefone" class="form-control" />
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Endereco" class="control-label"></label>
+                <input asp-for="Endereco" class="form-control" />
+                <span asp-validation-for="Endereco" class="text-danger"></span>
+            </div>
+
+            <div class="form-group form-check">
+                <input asp-for="IsJuridica" class="form-check-input" />
+                <label asp-for="IsJuridica" class="form-check-label"></label>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="✅ Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<br />
+<div>
+    <a asp-area="Tecnicos" asp-controller="ManipulaTecnicos" asp-action="Index" class="btn btn-secondary">🔙 Voltar</a>
+</div>

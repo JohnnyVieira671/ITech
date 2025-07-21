@@ -1,0 +1,12 @@
+﻿@model FastReport.Web.WebReport
+
+@{
+    ViewData["Title"] = "Serviços por Categoria";
+}
+
+@await Model.Render();
+
+
+
+
+

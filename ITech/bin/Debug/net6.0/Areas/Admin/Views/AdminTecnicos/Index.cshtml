@@ -1,0 +1,50 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<ITech.Models.Tecnico>
+
+@{
+    ViewData["Title"] = "Técnicos";
+}
+
+<h2>Técnicos</h2>
+<hr />
+<br />
+
+<form method="get" class="form-inline mb-2">
+    <input name="filter" class="form-control" placeholder="Filtrar técnicos"
+           value="@Model.RouteValue["filter"]" />
+          
+    <button type="submit" class="btn btn-info" style="margin-top:10px">Procurar</button>
+</form>
+<br /> <br />
+<vc:pager paging-list="@Model"></vc:pager>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.TecnicoNome)</th>
+            <th>@Html.DisplayNameFor(model => model.DocIdentificacao)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th>@Html.DisplayNameFor(model => model.Telefone)</th>
+            <th>@Html.DisplayNameFor(model => model.Endereco)</th>
+            <th>Pessoa Física ou Jurídica</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.TecnicoNome)</td>
+                <td>@Html.DisplayFor(modelItem => item.DocIdentificacao)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.Telefone)</td>
+                <td>@Html.DisplayFor(modelItem => item.Endereco)</td>
+                <td>@(item.IsJuridica ? "Jurídica" : "Física")</td>
+                <td>
+                    <a asp-area="Admin" asp-controller="AdminTecnicos" asp-action="Details" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-primary me-1">
+                        🔍 Detalhes
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,98 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<ITech.Models.Servico>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Serviços</h2>
+<hr />
+<br />
+<form method="get" class="form-inline">
+    <input name="filter" class="form-control" placeholder="Filtrar Serviços"
+           value="@Model.RouteValue["Filter"]" />
+    <button type="submit" class="btn btn-info" style="margin-top:10px">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Procurar
+    </button>
+
+</form>
+<br /> <br />
+
+
+<h4>Total de Serviços : @Model.TotalRecordCount</h4>
+<br />
+
+<h4>
+    <a asp-action="Create">Adicionar novo Serviço</a>
+</h4>
+
+<br />
+<div>
+    <vc:pager paging-list="@Model"></vc:pager>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoCurta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoDetalhada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            @* <th> *@
+            @*     @Html.DisplayNameFor(model => model.IsPreferido) *@
+            @* </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.EmDisposicao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tecnicos)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoCurta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoDetalhada)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            @* <td> *@
+            @*     @Html.DisplayFor(modelItem => item.IsPreferido) *@
+            @* </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.EmDisposicao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria.CategoriaNome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tecnicos.TecnicoNome)
+            </td>
+                <td>
+                    <a asp-controller="AdminServicos" asp-action="Edit" asp-route-id="@item.ServicoId" class="btn btn-sm btn-warning me-1">
+                        ✏️ Editar
+                    </a>
+                    <a asp-controller="AdminServicos" asp-action="Details" asp-route-id="@item.ServicoId" class="btn btn-sm btn-primary me-1">
+                        🔍 Detalhes
+                    </a>
+                    <a asp-controller="AdminServicos" asp-action="Delete" asp-route-id="@item.ServicoId" class="btn btn-sm btn-danger">
+                        🗑️ Deletar
+                    </a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

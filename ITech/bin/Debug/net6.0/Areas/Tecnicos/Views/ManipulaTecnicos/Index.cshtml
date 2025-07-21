@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ITech.Models.Tecnico>
+
+@{
+    ViewData["Title"] = "Técnicos";
+}
+
+<h1>Dados Do Tecnico</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.TecnicoNome)</th>
+            <th>@Html.DisplayNameFor(model => model.DocIdentificacao)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th>@Html.DisplayNameFor(model => model.Telefone)</th>
+            <th>@Html.DisplayNameFor(model => model.Endereco)</th>
+            <th>Pessoa Física ou Jurídica</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (var item in Model)
+        {
+            if (item.Email == User.Identity?.Name)
+            {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.TecnicoNome)</td>
+                <td>@Html.DisplayFor(modelItem => item.DocIdentificacao)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.Telefone)</td>
+                <td>@Html.DisplayFor(modelItem => item.Endereco)</td>
+                <td>@(item.IsJuridica ? "Jurídica" : "Física")</td>
+                <td>
+                        <a asp-area="Tecnicos" asp-controller="ManipulaTecnicos" asp-action="Edit" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-warning me-1">
+                            ✏️ Editar Dados
+                        </a>
+
+                        <a asp-area="Tecnicos" asp-controller="ManipulaTecnicos" asp-action="Delete" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-danger">
+                            🗑️ Deletar Conta
+                        </a>
+                </td>
+            </tr>
+            }
+        }
+    </tbody>
+</table>
