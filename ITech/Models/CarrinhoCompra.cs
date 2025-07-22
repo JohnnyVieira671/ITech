@@ -1,6 +1,5 @@
 ﻿using ITech.Context;
 using ITech.Models;
-using LanchesMac.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ITech.Models

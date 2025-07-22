@@ -14,5 +14,11 @@ namespace ITech.Repositories
         }
 
         public IEnumerable<Tecnico> Tecnicos => _context.Tecnicos;
+
+
+        public Tecnico BuscarPorId(int id)
+        {
+            return _context.Tecnicos.FirstOrDefault(t => t.TecnicoId == id);
+        }
     }
 }

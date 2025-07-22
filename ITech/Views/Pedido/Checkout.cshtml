@@ -2,7 +2,7 @@
 
 <h3>Você está a um passo de completar o seu pedido</h3>
 <hr />
-<form asp-area="" asp-controller="Pedido" asp-action="Checkout" method="post" class="form-horizontal" role="form">
+<form id="checkoutForm" asp-area="" asp-controller="Pedido" asp-action="Checkout" method="post" class="form-horizontal" role="form">
 
     <div class="row">
 
@@ -68,7 +68,10 @@
     <br />
     <div class="row">
         <div class="form-group">
-            <input class="btn btn-success" type="submit" value="Concluir Pedido" />
+            <input id="btnSubmit" class="btn btn-success" type="submit" value="Concluir Pedido" />
+            <span id="loadingMessage" style="display:none; font-weight:bold; margin-left:10px;">
+                Carregando, por favor aguarde...
+            </span>
         </div>
 
         &nbsp;
@@ -80,4 +83,13 @@
         </div>
     </div>
 </form>
+
+<script>
+    document.getElementById('checkoutForm').addEventListener('submit', function () {
+      // Esconde o botão
+      document.getElementById('btnSubmit').style.display = 'none';
+      // Mostra a mensagem carregando
+      document.getElementById('loadingMessage').style.display = 'inline';
+    });
+</script>
 

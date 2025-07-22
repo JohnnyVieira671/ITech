@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LanchesMac.Models
+namespace ITech.Models
 {
     [Table("CarrinhoCompraItens")]
     public class CarrinhoCompraItem

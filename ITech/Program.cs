@@ -83,7 +83,8 @@ internal class Program
         builder.Services.AddScoped<AdminRelatorioServicosService>();
         builder.Services.AddScoped<TecnicosRelatorioVendasService>();
         builder.Services.AddScoped<TecnicosGraficoVendasService>();
-        builder.Services.AddScoped<TecnicosRelatorioServicosService>();
+        builder.Services.AddScoped<TecnicosRelatorioServicosService>(); 
+        builder.Services.AddScoped<ITecnicoRepository, TecnicoRepository>();
 
         builder.Services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 

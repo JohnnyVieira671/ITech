@@ -14,7 +14,7 @@
              style="display: flex; align-items: center;">
             <div class="container" style="display: flex; align-items: center;">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    I'Tech
+                    <img src="~/images/logo.jpg" style="height: 80px" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,6 @@
                 </button>
                 <div class="navbar-collapse collapse ">
                     <a class="nav-link text-light" asp-area="Tecnicos" asp-controller="Tecnicos" asp-action="Index">Home</a>
-                    <a class="nav-link text-light" asp-area="Tecnicos" asp-controller="ManipulaTecnicos" asp-action="Index">Dados</a>
                     <a class="nav-link text-light" asp-area="Tecnicos" asp-controller="TecnicosServico" asp-action="Index">Serviços</a>
                     <a class="nav-link text-light" asp-area="Tecnicos" asp-controller="TecnicosRelatorioVendas" asp-action="Index">Relatório de Vendas</a>
                     <!--Graficos-->

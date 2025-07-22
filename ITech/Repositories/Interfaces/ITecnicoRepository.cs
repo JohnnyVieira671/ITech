@@ -2,8 +2,9 @@
 
 namespace ITech.Repositories.Interfaces
 {
-    public class ITecnicoRepository
+    public interface ITecnicoRepository
     {
         IEnumerable<Tecnico> Tecnicos { get; }
+        Tecnico BuscarPorId(int id);
     }
 }

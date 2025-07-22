@@ -1,6 +1,7 @@
 ﻿using ITech.Context;
 using ITech.Models;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
@@ -26,7 +27,7 @@ namespace ITech.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Verifica duplicidade
+                // Verifica duplicidade de CPF e Email
                 bool cpfExists = await _context.Tecnicos
                     .AnyAsync(t => t.DocIdentificacao == tecnico.DocIdentificacao);
 
@@ -42,14 +43,31 @@ namespace ITech.Controllers
                 if (cpfExists || emailExists)
                     return View(tecnico);
 
-                // Salva no banco
+                // Salva o técnico no banco
                 _context.Tecnicos.Add(tecnico);
                 await _context.SaveChangesAsync();
 
-                // Desloga qualquer usuário atual (ex: member)
+                // Atualiza as roles do usuário Identity
+                var userManager = HttpContext.RequestServices.GetRequiredService<UserManager<IdentityUser>>();
+                var user = await userManager.FindByEmailAsync(tecnico.Email);
+
+                if (user != null)
+                {
+                    if (await userManager.IsInRoleAsync(user, "Member"))
+                    {
+                        await userManager.RemoveFromRoleAsync(user, "Member");
+                    }
+
+                    if (!await userManager.IsInRoleAsync(user, "Tecnicos"))
+                    {
+                        await userManager.AddToRoleAsync(user, "Tecnicos");
+                    }
+                }
+
+                // Realiza logout da sessão atual
                 await HttpContext.SignOutAsync("Identity.Application");
 
-                // Cria a identidade do técnico
+                // Cria nova identidade com claims de técnico
                 var claims = new List<Claim>
         {
             new Claim(ClaimTypes.Name, tecnico.Email),
@@ -60,13 +78,18 @@ namespace ITech.Controllers
                 var identity = new ClaimsIdentity(claims, "Identity.Application");
                 var principal = new ClaimsPrincipal(identity);
 
-                // Loga como o técnico
+                // Loga com a nova identidade
                 await HttpContext.SignInAsync("Identity.Application", principal);
 
+                // Redireciona para a área de técnicos
                 return RedirectToAction("Index", "ManipulaTecnicos", new { area = "Tecnicos" });
             }
 
             return View(tecnico);
         }
+
+
+
+
     }
 }
