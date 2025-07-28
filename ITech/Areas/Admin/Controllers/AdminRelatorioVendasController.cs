@@ -1,5 +1,7 @@
 ﻿using ITech.Areas.Admin.Services;
+using ITech.Context;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace ITech.Areas.Admin.Controllers
@@ -8,10 +10,12 @@ namespace ITech.Areas.Admin.Controllers
     public class AdminRelatorioVendasController : Controller
     {
         private readonly AdminRelatorioVendasService _relatorioVendasService;
+        private readonly AppDbContext _context;
 
-        public AdminRelatorioVendasController(AdminRelatorioVendasService relatorioVendasService)
+        public AdminRelatorioVendasController(AdminRelatorioVendasService relatorioVendasService, AppDbContext context)
         {
             _relatorioVendasService = relatorioVendasService;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -37,5 +41,17 @@ namespace ITech.Areas.Admin.Controllers
             var result = await _relatorioVendasService.FindByDateAsync(minDate, maxDate);
             return View(result);
         }
+
+
+        public IActionResult RelatorioPrint(DateTime? minDate, DateTime? maxDate)
+        {
+            var pedidos = _context.Pedidos
+                .Where(p => (!minDate.HasValue || p.PedidoEnviado >= minDate)
+                         && (!maxDate.HasValue || p.PedidoEnviado <= maxDate))
+                .ToList();
+
+            return View("RelatorioPrint", pedidos);
+        }
+
     }
 }

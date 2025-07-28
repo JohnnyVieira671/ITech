@@ -44,7 +44,7 @@
                     }
                     @if (!User.Identity.IsAuthenticated)
                     {
-                        <a class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="Register">Trabalhe Conosco</a>
+                        <a class="nav-link text-light" asp-area="" asp-controller="Account" asp-action="Login">Trabalhe Conosco</a>
                     }
                     @if ((User.IsInRole("Member") && !User.IsInRole("Admin") && !User.IsInRole("Tecnicos")))
                     {

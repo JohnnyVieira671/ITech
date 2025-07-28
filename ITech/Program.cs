@@ -16,6 +16,8 @@ internal class Program
     private static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        
+
 
         // Adiciona os serviços ao contêiner
         builder.Services.AddControllersWithViews();
@@ -54,6 +56,10 @@ internal class Program
             options.Password.RequiredUniqueChars = 1;
         });
 
+        builder.Services.Configure<ConfigurationImagens>(
+        builder.Configuration.GetSection("ConfigurationImagens"));
+
+
         // Registro de repositórios e serviços
         builder.Services.AddTransient<IServicoRepository, ServicoRepository>();
         builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
@@ -90,6 +96,8 @@ internal class Program
 
         builder.Services.AddMemoryCache();
         builder.Services.AddSession();
+
+        
 
         var app = builder.Build();
 

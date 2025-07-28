@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "da3t0vQVN7qcm96hsyNmtPxhrY09tvJSqbXgLJWmcc8=",
+  "Hash": "AMCMwxvaiH1kaWydO3SA418tIGsWRmxgyX20r2fhFbs=",
   "Source": "ITech",
   "BasePath": "_content/ITech",
   "Mode": "Default",
@@ -101,6 +101,69 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Adicionar.png",
+      "SourceId": "ITech",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\",
+      "BasePath": "_content/ITech",
+      "RelativePath": "images/Adicionar#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lrjxzsegg6",
+      "Integrity": "r0ruFRBwRgP5gDH1VPwntGuNcWaQSjAxh8NhBw200Dg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Adicionar.png"
+    },
+    {
+      "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeCompras.png",
+      "SourceId": "ITech",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\",
+      "BasePath": "_content/ITech",
+      "RelativePath": "images/carrinhoDeCompras#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5aux0d0il",
+      "Integrity": "7B99tNKPcDwltJTvA1Bu6O0p3rfmKxC3eo7UfKydOYI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carrinhoDeCompras.png"
+    },
+    {
+      "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeComprasImgGrande.jpg",
+      "SourceId": "ITech",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\",
+      "BasePath": "_content/ITech",
+      "RelativePath": "images/carrinhoDeComprasImgGrande#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fso3stcnc8",
+      "Integrity": "wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carrinhoDeComprasImgGrande.jpg"
+    },
+    {
       "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrossel.png",
       "SourceId": "ITech",
       "SourceType": "Discovered",
@@ -162,6 +225,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\carrosselTec.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\erro.png",
+      "SourceId": "ITech",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\",
+      "BasePath": "_content/ITech",
+      "RelativePath": "images/erro#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "24leuyn5d4",
+      "Integrity": "nkesBGPrdZHAkbZxZqsXwHuXnAduoivqoozndLD5UZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\erro.png"
     },
     {
       "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\faleConosco.jpeg",
@@ -309,6 +393,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\registro.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Visualizar.jpg",
+      "SourceId": "ITech",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\",
+      "BasePath": "_content/ITech",
+      "RelativePath": "images/Visualizar#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfaaehaxnw",
+      "Integrity": "sxoZ/kPjh3iyCAYP85I0NUeGRhdhSfLW4uYoT0cgxBw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Visualizar.jpg"
     },
     {
       "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\js\\site.js",
@@ -1695,6 +1800,252 @@
       ]
     },
     {
+      "Route": "images/Adicionar.lrjxzsegg6.png",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Adicionar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r0ruFRBwRgP5gDH1VPwntGuNcWaQSjAxh8NhBw200Dg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 10:56:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lrjxzsegg6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Adicionar.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r0ruFRBwRgP5gDH1VPwntGuNcWaQSjAxh8NhBw200Dg="
+        }
+      ]
+    },
+    {
+      "Route": "images/Adicionar.png",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Adicionar.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r0ruFRBwRgP5gDH1VPwntGuNcWaQSjAxh8NhBw200Dg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 10:56:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r0ruFRBwRgP5gDH1VPwntGuNcWaQSjAxh8NhBw200Dg="
+        }
+      ]
+    },
+    {
+      "Route": "images/carrinhoDeCompras.o5aux0d0il.png",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeCompras.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7B99tNKPcDwltJTvA1Bu6O0p3rfmKxC3eo7UfKydOYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:57:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5aux0d0il"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carrinhoDeCompras.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7B99tNKPcDwltJTvA1Bu6O0p3rfmKxC3eo7UfKydOYI="
+        }
+      ]
+    },
+    {
+      "Route": "images/carrinhoDeCompras.png",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeCompras.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7B99tNKPcDwltJTvA1Bu6O0p3rfmKxC3eo7UfKydOYI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:57:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7B99tNKPcDwltJTvA1Bu6O0p3rfmKxC3eo7UfKydOYI="
+        }
+      ]
+    },
+    {
+      "Route": "images/carrinhoDeComprasImgGrande.fso3stcnc8.jpg",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeComprasImgGrande.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:47:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fso3stcnc8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carrinhoDeComprasImgGrande.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk="
+        }
+      ]
+    },
+    {
+      "Route": "images/carrinhoDeComprasImgGrande.jpg",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeComprasImgGrande.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 12:47:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk="
+        }
+      ]
+    },
+    {
       "Route": "images/carrossel.enimn3bmcx.png",
       "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrossel.png",
       "Selectors": [],
@@ -1937,6 +2288,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-gV9+rhJsQnS8j7PZOEzclVE6VBLDOkeOUl1XM867qHo="
+        }
+      ]
+    },
+    {
+      "Route": "images/erro.24leuyn5d4.png",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\erro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nkesBGPrdZHAkbZxZqsXwHuXnAduoivqoozndLD5UZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 14:31:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "24leuyn5d4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/erro.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nkesBGPrdZHAkbZxZqsXwHuXnAduoivqoozndLD5UZo="
+        }
+      ]
+    },
+    {
+      "Route": "images/erro.png",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\erro.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nkesBGPrdZHAkbZxZqsXwHuXnAduoivqoozndLD5UZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Jul 2025 14:31:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nkesBGPrdZHAkbZxZqsXwHuXnAduoivqoozndLD5UZo="
         }
       ]
     },
@@ -2511,6 +2944,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-UZP2gioHeBh8XPYf1GhPlDyT7m3k3uEzMMUuDjQvgQw="
+        }
+      ]
+    },
+    {
+      "Route": "images/Visualizar.hfaaehaxnw.jpg",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Visualizar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sxoZ/kPjh3iyCAYP85I0NUeGRhdhSfLW4uYoT0cgxBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 10:28:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfaaehaxnw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Visualizar.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sxoZ/kPjh3iyCAYP85I0NUeGRhdhSfLW4uYoT0cgxBw="
+        }
+      ]
+    },
+    {
+      "Route": "images/Visualizar.jpg",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Visualizar.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "48376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sxoZ/kPjh3iyCAYP85I0NUeGRhdhSfLW4uYoT0cgxBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 24 Jul 2025 10:28:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sxoZ/kPjh3iyCAYP85I0NUeGRhdhSfLW4uYoT0cgxBw="
         }
       ]
     },

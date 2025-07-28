@@ -2,14 +2,19 @@
 
 @model CarrinhoCompraViewModel
 
-@if(Model.CarrinhoCompra.CarrinhoCompraItens.Count > 0)
+@if (Model.CarrinhoCompra.CarrinhoCompraItens.Count > 0)
 {
-    <a asp-area="" asp-controller="CarrinhoCompra" asp-action="Index">
-        <span><img src="~/images/iconeCarrinhoDeCompras.png" style="height: 30px;"/></span>
-        <span style="color:white">
-            @Model.CarrinhoCompra.CarrinhoCompraItens.Count
-        </span>
+    <a asp-area="" asp-controller="CarrinhoCompra" asp-action="Index" style="text-decoration: none; background-color:white; margin-left:10px; padding:2px">
+        <div class="flex-column;">
+            <span>
+                <img src="~/images/carrinhoDeCompras.png" style="height: 28px;" />
+            </span>
+            <span style="color:white; font-size: 20px; color:black; text-decoration: none;">
+                @Model.CarrinhoCompra.CarrinhoCompraItens.Count.ToString()
+            </span>
+        </div>
     </a>
+
 }
 
 

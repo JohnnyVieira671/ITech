@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Adicionar.png",
+      "PackagePath": "staticwebassets\\images\\Adicionar.png"
+    },
+    {
+      "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Visualizar.jpg",
+      "PackagePath": "staticwebassets\\images\\Visualizar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeCompras.png",
+      "PackagePath": "staticwebassets\\images\\carrinhoDeCompras.png"
+    },
+    {
+      "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeComprasImgGrande.jpg",
+      "PackagePath": "staticwebassets\\images\\carrinhoDeComprasImgGrande.jpg"
+    },
+    {
       "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrossel.png",
       "PackagePath": "staticwebassets\\images\\carrossel.png"
     },
@@ -23,6 +39,10 @@
     {
       "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrosselTec.jpg",
       "PackagePath": "staticwebassets\\images\\carrosselTec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\erro.png",
+      "PackagePath": "staticwebassets\\images\\erro.png"
     },
     {
       "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\faleConosco.jpeg",

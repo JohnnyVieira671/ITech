@@ -26,21 +26,22 @@
                     <a class="nav-link text-light" asp-area="Admin" asp-controller="AdminCategoria" asp-action="Index">Categorias</a>
                     <a class="nav-link text-light" asp-area="Admin" asp-controller="AdminPedidos" asp-action="Index">Pedidos</a>
                     <a class="nav-link text-light" asp-area="Admin" asp-controller="AdminTecnicos" asp-action="Index">Tecnicos</a>
-                    <a class="nav-link text-light" asp-area="Admin" asp-controller="AdminRelatorioVendas" asp-action="Index">Relatório de Vendas</a> 
-                     <!--Graficos--> 
-                      <div class="dropdown">  
-                          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
-                                data-bs-toggle="dropdown" aria-expanded="false">  
-                              Gráficos de Vendas  
-                          </button>  
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">  
-                              <li><a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="Index">Vendas Anuais</a></li>  
-                              <li><a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="VendasMensal" asp-route-dias="30">Vendas Mensais</a></li>  
-                              <li><a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="VendasSemanal" asp-route-dias="7">Vendas Semanais</a></li>  
-                          </ul>  
-                      </div>  
+                    <a class="nav-link text-light" asp-area="Admin" asp-controller="AdminRelatorioVendas" asp-action="Index">Relatório de Vendas</a>
+                    <a class="nav-link text-light" asp-area="Admin" asp-controller="AdminImagens" asp-action="Index">Gerenciar Imagens</a>
 
-                    @* <a class="nav-link text-light" asp-area="Admin" asp-controller="AdminImagens" asp-action="Index">Gerenciar Imagens</a> *@
+                    <!--Graficos-->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                            Gráficos de Vendas
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="Index">Vendas Anuais</a></li>
+                            <li><a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="VendasMensal" asp-route-dias="30">Vendas Mensais</a></li>
+                            <li><a class="dropdown-item" asp-area="Admin" asp-controller="AdminGrafico" asp-action="VendasSemanal" asp-route-dias="7">Vendas Semanais</a></li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </nav>
@@ -51,7 +52,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted" style="margin-top: 30vh; margin-bottom: 10vh;">
         <div class="container" style="margin-top 40px; font-size:22px;">
             &copy; 2025 - I'Tech - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>

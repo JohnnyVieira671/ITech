@@ -46,7 +46,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted" style="margin-top: 30vh; margin-bottom: 10vh;">
         <div class="container" style="margin-top 40px; font-size:22px;">
             &copy; 2025 - I'Tech - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>

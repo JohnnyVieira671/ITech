@@ -1,8 +1,12 @@
 wwwroot\css\LanchesMac.css
 wwwroot\favicon.ico
+wwwroot\images\Adicionar.png
+wwwroot\images\carrinhoDeCompras.png
+wwwroot\images\carrinhoDeComprasImgGrande.jpg
 wwwroot\images\carrossel.png
 wwwroot\images\carrosselAdm.jpg
 wwwroot\images\carrosselTec.jpg
+wwwroot\images\erro.png
 wwwroot\images\faleConosco.jpeg
 wwwroot\images\iconEmail.jpg
 wwwroot\images\iconHome.jpg
@@ -10,6 +14,7 @@ wwwroot\images\iconTelefone.jpg
 wwwroot\images\login.jpg
 wwwroot\images\logo.jpg
 wwwroot\images\registro.jpg
+wwwroot\images\Visualizar.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

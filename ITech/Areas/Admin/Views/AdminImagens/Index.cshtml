@@ -1,0 +1,53 @@
+﻿
+<table width="100%" style="border-collapse: collapse; border: 2px solid black;">
+    <tr>
+        <td style="padding:10px">
+            <div style="width:100% ;display:flex; justify-content:center;">
+                <img src="~/images/Adicionar.png" style="width:400px; height:200px;" />
+            </div>
+            <hr />
+        </td>
+        <td style="padding:10px;">
+            <div style="width:100% ;display:flex; justify-content:center;">
+                <img src="~/images/Visualizar.jpg" style="width:400px; height:200px;" />
+            </div>
+            <hr />
+        </td>
+    </tr>
+    <tr>
+        <td style="padding:10px">
+            <form method="post" enctype="multipart/form-data"
+            asp-controller="AdminImagens" asp-action="UploadFiles">
+                <div class="form-group">
+                    <div class="col-md-10" style="width:100% ;display:flex; justify-content:center; flex-direction:column;">
+                        <p style="padding-bottom:0px; margin-bottom:0px; font-size:20px;display:flex; justify-content:center;"><strong>Selecione um ou mais arquivos para enviar</strong></p>
+                        <p style="padding-top:0px;   margin-top:0px;display:flex; justify-content:center;">(Arquivos com o mesmo nome serão sobrescritos)</p>
+                        <input type="submit" value="Enviar Arquivo(s)" class="button btn-outline-primary" />
+                    </div>
+                </div>
+            </form>
+        </td>
+        <td style="padding:10px">
+            <form method="post" enctype="multipart/form-data"
+            asp-controller="AdminImagens" asp-action="GetImagens">
+                
+                <div class="form-group">
+                    <div class="col-md-10" style="width:100% ;display:flex; justify-content:center; flex-direction:column;">
+                        <p style="font-size:20px;display:flex; justify-content:center;"><strong>Visualizar Imagens na pasta do servidor: </strong></p>
+                        <br />
+                        <input type="submit" value="Visualizar arquivos  no servidor" class="button btn-outline-primary" />
+                    </div>
+                </div>
+            </form>
+        </td>
+    </tr>
+</table>
+<div class="container">
+    @if (ViewData["Deletado"] != null)
+    {
+        <li>@ViewData["Deltado"]</li>
+    }
+
+</div>
+
+

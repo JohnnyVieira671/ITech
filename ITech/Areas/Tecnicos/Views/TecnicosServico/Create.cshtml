@@ -4,7 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Adicionar novo serviço</h1>
 
 <h4>Serviço</h4>
 <hr />
@@ -45,14 +45,13 @@
             <input type="hidden" asp-for="TecnicoId" />
 
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="✅ Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
+<br />
 <div>
-    <a asp-area="Tecnicos" asp-controller="TecnicosServico" asp-action="Index">Back to List</a>
-    
+    <a asp-area="Tecnicos" asp-controller="TecnicosServico" asp-action="Index" class="btn btn-secondary">🔙 Voltar à Lista</a>
 </div>
-

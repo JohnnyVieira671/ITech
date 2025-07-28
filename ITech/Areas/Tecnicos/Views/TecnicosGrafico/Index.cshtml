@@ -54,18 +54,38 @@
                 easing: 'out',
                 startup: true
             },
-            chartArea: { width: '70%' },
-            colors: ['#5202b5', '#d2a828'],
+            chartArea: { width: '70%'},
+            colors: ['#3366cc', '#dc3912'],
             hAxis: {
-                title: 'Quantidade / Valor Total',
-                minValue: 0
-            },
-            vAxis: {
                 title: 'Serviços'
+            },
+                seriesType: 'bars',
+        series: {
+        0: {
+            type: 'line',
+            targetAxisIndex: 0,
+            pointShape: 'circle',  // formato do ponto
+            pointSize: 6          // tamanho da bolinha
+        },
+        1: {
+            type: 'bars',
+            targetAxisIndex: 1
+        }
+    },
+    vAxes: {
+        0: { title: 'Quantidade', textStyle: { color: '#3366cc' }, titleTextStyle: { color: '#3366cc' } },
+        1: { title: 'Valor Total (R$)', textStyle: { color: '#dc3912' }, titleTextStyle: { color: '#dc3912' }, gridlines: { count: 5 }, format: 'currency' }
+    },
+
+            legend: {
+                position: 'right',
+                textStyle: { fontSize: 12 },
+                alignment: 'center',
+                maxLines: 3
             }
         };
 
-        var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+        var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
         chart.draw(dataTable, options);
     }
 </script>

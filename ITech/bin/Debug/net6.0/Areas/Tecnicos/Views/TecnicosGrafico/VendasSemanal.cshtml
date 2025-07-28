@@ -68,9 +68,29 @@
             hAxis: {
                 title: 'Serviço',
             },
-            vAxis: {
-                title: 'Quantidade / Valor (R$)',
-                minValue: 0
+            vAxes: {
+                0: {
+                    title: 'Quantidade',
+                    textStyle: { color: '#3366cc' },
+                    titleTextStyle: { color: '#3366cc' },
+                    viewWindow: {
+                     min: 0
+                    }
+                },
+                1: {
+                    title: 'Valor (R$)',
+                    textStyle: { color: '#dc3912' },
+                    titleTextStyle: { color: '#dc3912' },
+                    viewWindow: {
+                        min: 0
+                        
+                    }
+                }
+            },
+
+            series: {
+                0: { targetAxisIndex: 0 }, // azul
+                1: { targetAxisIndex: 1 }  // vermelho
             },
             pointSize: 7
         };

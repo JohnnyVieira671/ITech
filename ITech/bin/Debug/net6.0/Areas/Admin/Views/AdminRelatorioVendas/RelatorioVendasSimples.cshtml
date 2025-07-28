@@ -19,7 +19,17 @@
         </form>
     </div>
 </nav>
+<br />
+<br />
+<br />
+<a class="btn btn-secondary"
+   target="_blank"
+   href="@Url.Action("RelatorioPrint", new { minDate = ViewData["minDate"], maxDate = ViewData["maxDate"] })">
+    Imprimir / Salvar como PDF
+</a>
 
+<br />
+<br />
 <div class="panel panel-primary">
     <div class="panel-heading">
         <h3 class="panel-title">Total de Pedidos no relatório    = @Model.Count()</h3>

@@ -51,12 +51,22 @@
                 startup: true
             },
             chartArea: { width: '70%' },
-            colors: ['#5202b5', '#d2a828'],
+            colors: ['#3366cc', '#dc3912'],
             hAxis: {
                 title: 'Serviços'
             },
-            vAxis: {
-                title: 'Quantidade / Valor (R$)'
+            vAxes: {
+                0: { title: 'Quantidade', textStyle: { color: '#3366cc' }, titleTextStyle: { color: '#3366cc' } },
+                1: { title: 'Valor Total (R$)', textStyle: { color: '#dc3912' }, titleTextStyle: { color: '#dc3912' } }    // Eixo da direita
+            },
+            series: {
+                0: { targetAxisIndex: 0 }, // "Quantidade" usa eixo 0 (esquerda)
+                1: { targetAxisIndex: 1 }  // "Valor (R$)" usa eixo 1 (direita)
+            },
+            legend: {
+                position: 'top',
+                alignment: 'center',
+                textStyle: { fontSize: 13 }
             }
         };
 
