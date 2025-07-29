@@ -50,8 +50,13 @@ namespace ITech.Areas.Admin.Controllers
                          && (!maxDate.HasValue || p.PedidoEnviado <= maxDate))
                 .ToList();
 
+            
+            ViewData["minDate"] = minDate?.ToString("dd/MM/yyyy") ?? "-";
+            ViewData["maxDate"] = maxDate?.ToString("dd/MM/yyyy") ?? "-";
+
             return View("RelatorioPrint", pedidos);
         }
+
 
     }
 }

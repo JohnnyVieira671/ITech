@@ -19,11 +19,27 @@
         </form>
     </div>
 </nav>
+<br />
+<br />
+<br />
+<a class="btn btn-secondary"
+   target="_blank"
+   href="@Url.Action("RelatorioPrint", new {
+       minDate = ViewData["minDate"],
+       maxDate = ViewData["maxDate"],
+       tecnico = ViewData["Tecnico"],
+       area = "Tecnicos"
+   })">
+    Imprimir / Salvar como PDF
+</a>
 
+
+<br />
+<br />
 <div class="panel panel-primary">
     <div class="panel-heading">
         <h3 class="panel-title">Total de Pedidos = @Model.Count()</h3>
-        <h3 class="panel-title">Total de Lanches nos Pedidos = @Model.Sum(obj => obj.TotalItensPedido).ToString()</h3>
+        <h3 class="panel-title">Total de Serviços nos Pedidos = @Model.Sum(obj => obj.TotalItensPedido).ToString()</h3>
         <h3 class="panel-title">Total de Valor total dos Pedidos = @Model.Sum(obj => obj.PedidoTotal).ToString("c")</h3>
     </div>
     <div class="panel-body">

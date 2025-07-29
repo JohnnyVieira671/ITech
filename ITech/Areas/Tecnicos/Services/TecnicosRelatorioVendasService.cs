@@ -11,6 +11,7 @@ namespace ITech.Areas.Tecnicos.Services
         {
             _context = context;
         }
+
         public async Task<List<Pedido>> FindByDateAsync(DateTime? minDate, DateTime? maxDate, string email)
         {
             var resultado = from obj in _context.Pedidos select obj;
@@ -29,6 +30,32 @@ namespace ITech.Areas.Tecnicos.Services
                                   .ThenInclude(i => i.Servico)
                             .Where(p => (!minDate.HasValue || p.PedidoEnviado >= minDate) &&
                                   (!maxDate.HasValue || p.PedidoEnviado <= maxDate))
+                            .OrderByDescending(p => p.PedidoEnviado)
+                            .ToListAsync();
+
+
+        }
+
+
+        public async Task<List<Pedido>> FindByFilterAsync(string filter, string email)
+        {
+            var resultado = from obj in _context.Pedidos select obj;
+                return await _context.Pedidos
+                            .Where(p => p.PedidoItens.Any(i => i.Servico.Tecnicos.Email == email))
+                            .Include(p => p.PedidoItens.Where(i => i.Servico.Tecnicos.Email == email))
+                                  .ThenInclude(i => i.Servico)
+                            .Where(p => (
+                                                p.Nome.Contains(filter) ||
+                                                p.Sobrenome.Contains(filter) ||
+                                                p.Endereco1.Contains(filter) ||
+                                                p.Endereco2.Contains(filter) ||
+                                                p.Cep.Contains(filter) ||
+                                                p.Estado.Contains(filter) ||
+                                                p.Cidade.Contains(filter) ||
+                                                p.Telefone.Contains(filter) ||
+                                                p.Email.Contains(filter)
+                                        )
+                                    )
                             .OrderByDescending(p => p.PedidoEnviado)
                             .ToListAsync();
 
