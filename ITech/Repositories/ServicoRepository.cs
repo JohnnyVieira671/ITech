@@ -32,14 +32,14 @@ namespace ITech.Repositories
         public IEnumerable<Servico> GetServicosMaisVendidos(int quantidade)
         {
             var grupo = _context.PedidoDetalhes
-                .Include(pd => pd.Servico)
-        .AsEnumerable()
-        .Where(pd => pd.Servico != null && pd.Servico.EmDisposicao) 
-        .GroupBy(pd => pd.Servico)
-        .OrderByDescending(g => g.Sum(pd => pd.Quantidade))
-        .Take(quantidade)
-        .Select(g => g.Key)
-        .ToList();
+                                        .Include(pd => pd.Servico)
+                                        .AsEnumerable()
+                                        .Where(pd => pd.Servico != null && pd.Servico.EmDisposicao)
+                                        .GroupBy(pd => pd.Servico)
+                                        .OrderByDescending(g => g.Sum(pd => pd.Quantidade))
+                                        .Take(quantidade)
+                                        .Select(g => g.Key)
+                                        .ToList();
 
             return grupo;
         }

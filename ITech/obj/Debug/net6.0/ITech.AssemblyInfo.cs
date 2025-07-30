@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ITech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+639979684c761895d2a87dbe158ad957ab761539")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+466d940a7ff8d80027e1b018054ce8eb5cc2520c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ITech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ITech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

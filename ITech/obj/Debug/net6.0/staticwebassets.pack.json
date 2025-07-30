@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\Visualizar.jpg"
     },
     {
+      "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\acessoNegado.jpg",
+      "PackagePath": "staticwebassets\\images\\acessoNegado.jpg"
+    },
+    {
       "Id": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeCompras.png",
       "PackagePath": "staticwebassets\\images\\carrinhoDeCompras.png"
     },

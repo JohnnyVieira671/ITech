@@ -13,27 +13,30 @@
 <h3>Entrega :   @Html.DisplayFor(model => @model.Pedido.PedidoEntregueEm)</h3>
 
 <table class="table">
-    @foreach(var item in @Model.Pedido.PedidoItens)
+    @foreach (var item in @Model.Pedido.PedidoItens)
     {
-        totalPedidos += (item.Servico.Valor * item.Quantidade);
-        
-        <tr>
-            <td align="right">
-                <h3>@Html.DisplayFor(modelItem => item.Servico.DescricaoCurta)</h3>
-            </td>
-            <td align="right">
-                <h3>@string.Format("{0:C}", item.Servico.Valor)</h3>
-            </td>
-            <td align="right">
-                <h3>(@Html.DisplayFor(modelItem => item.Quantidade))</h3>
-            </td>
-        </tr>
+        @if (item.Servico != null && item.Servico.Tecnicos != null && item.Servico.Tecnicos.Email == User.Identity?.Name)
+        {
+            totalPedidos += (item.Servico.Valor * item.Quantidade);
+
+            <tr>
+                <td align="right">
+                    <h3>@Html.DisplayFor(modelItem => item.Servico.DescricaoCurta)</h3>
+                </td>
+                <td align="right">
+                    <h3>@string.Format("{0:C}", item.Servico.Valor)</h3>
+                </td>
+                <td align="right">
+                    <h3>(@Html.DisplayFor(modelItem => item.Quantidade))</h3>
+                </td>
+            </tr>
+        }
     }
 
     <tr>
         <td colspan="2">&nbsp;</td>
         <td align="right">
-            <h3>Total do Pedido : @string.Format("{0:C}",totalPedidos)</h3>
+            <h3>Total do Pedido : @string.Format("{0:C}", totalPedidos)</h3>
         </td>
     </tr>
 </table>

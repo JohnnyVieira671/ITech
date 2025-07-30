@@ -6,10 +6,16 @@
 <div class="container">
     <div class="row">
 
-        <img src="~/images/carrinhoDeComprasImgGrande.jpg" style="width: 500px;margin:0px; padding:0px;" />
-
-        <div>
-            <h4> Seu carrinho de compras: </h4>
+        <div class="row">
+            <!-- Carrossel separado -->
+            <div class="carousel-item active">
+                <img src="~/images/carrinhoDeComprasImgGrande.jpg?v=@DateTime.Now.Ticks" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="mt-4">
+            <h3> Seu carrinho de compras: </h3>
         </div>
 
         <table class="table table-bordered table-striped">

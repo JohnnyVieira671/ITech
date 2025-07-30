@@ -95,7 +95,8 @@ namespace ITech.Areas.Tecnicos.Controllers
         // POST: Admin/AdminPedidos/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Pedido pedido, List<PedidoDetalhe> PedidoItens)
+        public async Task<IActionResult> Edit(int id, Pedido pedido)
+             //List<PedidoDetalhe> PedidoItens
         {
             if (id != pedido.PedidoId)
             {
@@ -114,34 +115,34 @@ namespace ITech.Areas.Tecnicos.Controllers
                         return NotFound();
 
                     // Atualiza os dados do pedido
-                    pedidoDb.Nome = pedido.Nome;
-                    pedidoDb.Sobrenome = pedido.Sobrenome;
-                    pedidoDb.Endereco1 = pedido.Endereco1;
-                    pedidoDb.Endereco2 = pedido.Endereco2;
-                    pedidoDb.Cep = pedido.Cep;
-                    pedidoDb.Estado = pedido.Estado;
-                    pedidoDb.Cidade = pedido.Cidade;
-                    pedidoDb.Telefone = pedido.Telefone;
-                    pedidoDb.Email = pedido.Email;
-                    pedidoDb.PedidoEnviado = pedido.PedidoEnviado;
+                    //pedidoDb.Nome = pedido.Nome;
+                    //pedidoDb.Sobrenome = pedido.Sobrenome;
+                    //pedidoDb.Endereco1 = pedido.Endereco1;
+                    //pedidoDb.Endereco2 = pedido.Endereco2;
+                    //pedidoDb.Cep = pedido.Cep;
+                    //pedidoDb.Estado = pedido.Estado;
+                    //pedidoDb.Cidade = pedido.Cidade;
+                    //pedidoDb.Telefone = pedido.Telefone;
+                    //pedidoDb.Email = pedido.Email;
+                    //pedidoDb.PedidoEnviado = pedido.PedidoEnviado;
                     pedidoDb.PedidoEntregueEm = pedido.PedidoEntregueEm;
 
                     // Atualiza as quantidades dos itens
-                    foreach (var itemAtual in pedidoDb.PedidoItens.ToList())
-                    {
-                        var itemEditado = PedidoItens.FirstOrDefault(pi => pi.PedidoDetalheId == itemAtual.PedidoDetalheId);
-                        if (itemEditado != null)
-                        {
-                            if (itemEditado.Quantidade <= 0)
-                            {
-                                _context.PedidoDetalhes.Remove(itemAtual);
-                            }
-                            else
-                            {
-                                itemAtual.Quantidade = itemEditado.Quantidade;
-                            }
-                        }
-                    }
+                    //foreach (var itemAtual in pedidoDb.PedidoItens.ToList())
+                    //{
+                    //    var itemEditado = PedidoItens.FirstOrDefault(pi => pi.PedidoDetalheId == itemAtual.PedidoDetalheId);
+                    //    if (itemEditado != null)
+                    //    {
+                    //        if (itemEditado.Quantidade <= 0)
+                    //        {
+                    //            _context.PedidoDetalhes.Remove(itemAtual);
+                    //        }
+                    //        else
+                    //        {
+                    //            itemAtual.Quantidade = itemEditado.Quantidade;
+                    //        }
+                    //    }
+                    //}
 
                     await _context.SaveChangesAsync();
 
@@ -216,6 +217,7 @@ namespace ITech.Areas.Tecnicos.Controllers
             var pedido = _context.Pedidos
                 .Include(p => p.PedidoItens)
                 .ThenInclude(pi => pi.Servico)
+                    .ThenInclude(s => s.Tecnicos)
                 .FirstOrDefault(p => p.PedidoId == id);
 
             if (pedido == null)

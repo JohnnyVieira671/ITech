@@ -1,5 +1,6 @@
 wwwroot\css\LanchesMac.css
 wwwroot\favicon.ico
+wwwroot\images\acessoNegado.jpg
 wwwroot\images\Adicionar.png
 wwwroot\images\carrinhoDeCompras.png
 wwwroot\images\carrinhoDeComprasImgGrande.jpg

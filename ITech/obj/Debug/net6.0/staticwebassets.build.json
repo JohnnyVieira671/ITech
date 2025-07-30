@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AMCMwxvaiH1kaWydO3SA418tIGsWRmxgyX20r2fhFbs=",
+  "Hash": "xbLMY/Yd5McXl0pavbsbva/+AOcpe4KdP8xBxX3eFuQ=",
   "Source": "ITech",
   "BasePath": "_content/ITech",
   "Mode": "Default",
@@ -101,6 +101,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\acessoNegado.jpg",
+      "SourceId": "ITech",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\",
+      "BasePath": "_content/ITech",
+      "RelativePath": "images/acessoNegado#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i1e4vaxqvr",
+      "Integrity": "6miJSDxu3G3Xf0JgOyCX4rZA75hfwyvDoumMNOvEKoM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\acessoNegado.jpg"
+    },
+    {
       "Identity": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Adicionar.png",
       "SourceId": "ITech",
       "SourceType": "Discovered",
@@ -157,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fso3stcnc8",
-      "Integrity": "wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk=",
+      "Fingerprint": "d7wpihyzd6",
+      "Integrity": "SYWMLedNp2VUnXotvg2hbxdpcKkOCdkfXojaSg5FRiE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\carrinhoDeComprasImgGrande.jpg"
@@ -1800,6 +1821,88 @@
       ]
     },
     {
+      "Route": "images/acessoNegado.i1e4vaxqvr.jpg",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\acessoNegado.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6miJSDxu3G3Xf0JgOyCX4rZA75hfwyvDoumMNOvEKoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 12:50:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i1e4vaxqvr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/acessoNegado.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6miJSDxu3G3Xf0JgOyCX4rZA75hfwyvDoumMNOvEKoM="
+        }
+      ]
+    },
+    {
+      "Route": "images/acessoNegado.jpg",
+      "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\acessoNegado.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6miJSDxu3G3Xf0JgOyCX4rZA75hfwyvDoumMNOvEKoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Jul 2025 12:50:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6miJSDxu3G3Xf0JgOyCX4rZA75hfwyvDoumMNOvEKoM="
+        }
+      ]
+    },
+    {
       "Route": "images/Adicionar.lrjxzsegg6.png",
       "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\Adicionar.png",
       "Selectors": [],
@@ -1964,7 +2067,7 @@
       ]
     },
     {
-      "Route": "images/carrinhoDeComprasImgGrande.fso3stcnc8.jpg",
+      "Route": "images/carrinhoDeComprasImgGrande.d7wpihyzd6.jpg",
       "AssetFile": "C:\\Users\\trans\\source\\Repos\\ITech\\ITech\\wwwroot\\images\\carrinhoDeComprasImgGrande.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1974,7 +2077,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22129"
+          "Value": "32247"
         },
         {
           "Name": "Content-Type",
@@ -1982,11 +2085,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk=\""
+          "Value": "\"SYWMLedNp2VUnXotvg2hbxdpcKkOCdkfXojaSg5FRiE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 12:47:40 GMT"
+          "Value": "Wed, 30 Jul 2025 13:17:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1996,7 +2099,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fso3stcnc8"
+          "Value": "d7wpihyzd6"
         },
         {
           "Name": "label",
@@ -2004,7 +2107,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk="
+          "Value": "sha256-SYWMLedNp2VUnXotvg2hbxdpcKkOCdkfXojaSg5FRiE="
         }
       ]
     },
@@ -2019,7 +2122,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22129"
+          "Value": "32247"
         },
         {
           "Name": "Content-Type",
@@ -2027,11 +2130,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk=\""
+          "Value": "\"SYWMLedNp2VUnXotvg2hbxdpcKkOCdkfXojaSg5FRiE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Jul 2025 12:47:40 GMT"
+          "Value": "Wed, 30 Jul 2025 13:17:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2041,7 +2144,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wa/iJp7g2hK2DN10265y662yksA1vlOfn/V8Y4Y6wOk="
+          "Value": "sha256-SYWMLedNp2VUnXotvg2hbxdpcKkOCdkfXojaSg5FRiE="
         }
       ]
     },
