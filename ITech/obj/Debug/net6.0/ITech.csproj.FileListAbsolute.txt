@@ -661,3 +661,5 @@ C:\Users\trans\source\Repos\ITech\ITech\bin\Debug\net6.0\Areas\Tecnicos\Views\Te
 C:\Users\trans\source\Repos\ITech\ITech\bin\Debug\net6.0\Areas\Tecnicos\Views\TecnicosPedidos\Index.cshtml
 C:\Users\trans\source\Repos\ITech\ITech\bin\Debug\net6.0\Areas\Tecnicos\Views\TecnicosPedidos\PedidoNotFound.cshtml
 C:\Users\trans\source\Repos\ITech\ITech\bin\Debug\net6.0\Areas\Tecnicos\Views\TecnicosPedidos\PedidoServicos.cshtml
+C:\Users\trans\source\Repos\ITech\ITech\bin\Debug\net6.0\Areas\Admin\Views\AdminTecnicos\Delete.cshtml
+C:\Users\trans\source\Repos\ITech\ITech\bin\Debug\net6.0\Areas\Admin\Views\AdminTecnicos\ConfirmDelete.cshtml

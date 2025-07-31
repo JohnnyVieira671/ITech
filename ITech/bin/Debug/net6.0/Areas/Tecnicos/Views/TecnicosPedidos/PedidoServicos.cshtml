@@ -15,9 +15,6 @@
 <table class="table">
     @foreach (var item in @Model.Pedido.PedidoItens)
     {
-        <p style="color:red">@User.Identity?.Name</p>
-        <p style="color:green">@(item.Servico.Tecnicos == null)</p>
-
         @if (item.Servico != null && item.Servico.Tecnicos != null && item.Servico.Tecnicos.Email == User.Identity?.Name)
         {
             totalPedidos += (item.Servico.Valor * item.Quantidade);

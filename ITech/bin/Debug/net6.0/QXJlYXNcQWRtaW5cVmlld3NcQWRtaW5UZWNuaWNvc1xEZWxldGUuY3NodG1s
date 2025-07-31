@@ -1,0 +1,62 @@
+﻿@model ITech.Models.Tecnico
+
+@{
+    ViewData["Title"] = "Excluir Técnico";
+}
+
+<h1>Excluir</h1>
+
+<h3>Tem certeza que deseja excluir esta conta?</h3>
+<div>
+    <h4>Técnico</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.TecnicoNome)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.TecnicoNome)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.DocIdentificacao)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.DocIdentificacao)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Endereco)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Endereco)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.IsJuridica)
+        </dt>
+        <dd class="col-sm-9">
+            @(Model.IsJuridica ? "Pessoa Jurídica" : "Pessoa Física")
+        </dd>
+    </dl>
+
+    <form asp-area="Admin" asp-controller="AdminTecnicos" asp-action="Delete">
+        <input type="hidden" asp-for="TecnicoId" />
+        <input type="submit" value="🗑️ Excluir" class="btn btn-danger" />
+        <a asp-area="Admin" asp-controller="AdminTecnicos" asp-action="Index" class="btn btn-secondary">🔙 Voltar à Lista</a>
+    </form>
+</div>

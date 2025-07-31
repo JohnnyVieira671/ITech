@@ -63,13 +63,13 @@ namespace ITech.Models
 
         [DataType(DataType.Text)]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy HH:mm}", ApplyFormatInEditMode = true)]
-        [Display(Name = "Data do envio do pedido")]
+        [Display(Name = "Data e hora do envio do pedido")]
         public DateTime PedidoEnviado { get; set; }
 
 
         [DataType(DataType.Text)]
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy HH:mm}", ApplyFormatInEditMode = true)]
-        [Display(Name = "Data da entrega do pedido")]
+        [Display(Name = "Data e hora da entrega do pedido")]
         public DateTime? PedidoEntregueEm { get; set; }
 
         public virtual List<PedidoDetalhe> PedidoItens { get; set; }

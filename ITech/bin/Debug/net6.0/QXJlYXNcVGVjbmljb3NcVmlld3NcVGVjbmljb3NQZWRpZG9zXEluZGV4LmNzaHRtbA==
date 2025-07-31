@@ -104,7 +104,7 @@
                 </td>
                 <td>
                     <a asp-area="Tecnicos" asp-controller="TecnicosPedidos" asp-action="Edit" asp-route-id="@item.PedidoId" class="btn btn-sm btn-warning me-1">
-                        ✏️ Editar
+                        ✏️ Editar Entrega
                     </a>
 
                     <a asp-area="Tecnicos" asp-controller="TecnicosPedidos" asp-action="Details" asp-route-id="@item.PedidoId" class="btn btn-sm btn-primary me-1">

@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
 
 namespace ITech.Areas.Tecnicos.Controllers
 {
@@ -123,7 +124,6 @@ namespace ITech.Areas.Tecnicos.Controllers
             return View(tecnico);
         }
 
-        // POST: Admin/Tecnicos/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -131,11 +131,28 @@ namespace ITech.Areas.Tecnicos.Controllers
             var tecnico = await _context.Tecnicos.FindAsync(id);
             if (tecnico != null)
             {
+                var userManager = HttpContext.RequestServices.GetRequiredService<UserManager<IdentityUser>>();
+                var user = await userManager.FindByEmailAsync(tecnico.Email); 
+
+                if (user != null)
+                {
+                    if (await userManager.IsInRoleAsync(user, "Tecnicos"))
+                    {
+                        await userManager.RemoveFromRoleAsync(user, "Tecnicos");
+                    }
+
+                    await userManager.DeleteAsync(user);
+
+                    await HttpContext.SignOutAsync("Identity.Application");
+
+                }
                 _context.Tecnicos.Remove(tecnico);
                 await _context.SaveChangesAsync();
             }
-            return RedirectToAction("Index", "ManipulaTecnicos", new { area = "Tecnicos" });
+            return RedirectToAction("Index", "Home", new { area = (string)null });
         }
+
+
 
         private bool TecnicoExists(int id)
         {

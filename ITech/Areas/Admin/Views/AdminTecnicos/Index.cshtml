@@ -43,6 +43,9 @@
                     <a asp-area="Admin" asp-controller="AdminTecnicos" asp-action="Details" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-primary me-1">
                         🔍 Detalhes
                     </a>
+                    <a asp-area="Admin" asp-controller="AdminTecnicos" asp-action="Delete" asp-route-id="@item.TecnicoId" class="btn btn-sm btn-danger">
+                        🗑️ Deletar Conta
+                    </a>
                 </td>
             </tr>
         }
