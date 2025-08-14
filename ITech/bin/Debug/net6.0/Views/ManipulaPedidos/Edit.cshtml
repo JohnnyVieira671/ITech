@@ -1,0 +1,146 @@
+﻿@model ITech.Models.Pedido
+
+@{
+    ViewData["Title"] = "Editar Pedido";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Pedido</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-8">
+        <form asp-area="" asp-controller="ManipulaPedidos" asp-action="Edit" asp-route-id="@Model.PedidoId" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Hidden field para o PedidoId -->
+            <input type="hidden" asp-for="PedidoId" />
+
+            <!-- Campos do Pedido -->
+            <div class="form-group">
+                @* <label asp-for="Nome" class="control-label"></label> *@
+                <input type="hidden" asp-for="Nome" class="form-control" />
+                @* <span asp-validation-for="Nome" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                @* <label asp-for="Sobrenome" class="control-label"></label> *@
+                <input type="hidden" asp-for="Sobrenome" class="form-control" />
+                @* <span asp-validation-for="Sobrenome" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                @* <label asp-for="Endereco1" class="control-label"></label> *@
+                <input type="hidden" asp-for="Endereco1" class="form-control" />
+                @* <span asp-validation-for="Endereco1" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                @* <label asp-for="Endereco2" class="control-label"></label> *@
+                <input type="hidden" asp-for="Endereco2" class="form-control" />
+                @* <span asp-validation-for="Endereco2" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                @* <label asp-for="Cep" class="control-label"></label> *@
+                <input type="hidden" asp-for="Cep" class="form-control" />
+                @* <span asp-validation-for="Cep" class="text-danger"></span> *@
+                @* <span asp-validation-for="Cep" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                @* <label asp-for="Estado" class="control-label"></label> *@
+                <input type="hidden" asp-for="Estado" class="form-control" />
+                @* <span asp-validation-for="Estado" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                @* <label asp-for="Cidade" class="control-label"></label> *@
+                <input type="hidden" asp-for="Cidade" class="form-control" />
+                @* <span asp-validation-for="Cidade" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                @* <label asp-for="Telefone" class="control-label"></label> *@
+                <input type="hidden" asp-for="Telefone" class="form-control" />
+                @* <span asp-validation-for="Telefone" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                @* <label asp-for="Email" class="control-label"></label> *@
+                <input type="hidden" asp-for="Email" class="form-control" />
+                @* <span asp-validation-for="Email" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                @* <label asp-for="PedidoEnviado" class="control-label"></label> *@
+                <input type="hidden" asp-for="PedidoEnviado" class="form-control"  />
+                @* <span asp-validation-for="PedidoEnviado" class="text-danger"></span> *@
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PedidoEntregueEm" class="control-label"></label>
+                <input asp-for="PedidoEntregueEm" class="form-control" type="datetime" placeholder="Ex: 01/01/2000 00:00" />
+                <span asp-validation-for="PedidoEntregueEm" class="text-danger"></span>
+            </div>
+
+            @* <h4>Itens do Pedido</h4> *@
+
+            @* @if (Model?.PedidoItens != null && Model.PedidoItens.Any()) *@
+            @* { *@
+            @*     <table class="table"> *@
+            @*         <thead> *@
+            @*             <tr> *@
+            @*                 <th>Serviço</th> *@
+            @*                 <th>Quantidade</th> *@
+            @*                 <th>Preço Unitário</th> *@
+            @*                 <th>Total</th> *@
+            @*             </tr> *@
+            @*         </thead> *@
+            @*         <tbody> *@
+            @*             @for (int i = 0; i < Model.PedidoItens.Count; i++) *@
+            @*             { *@
+            @*                 var item = Model.PedidoItens[i]; *@
+            @*                 <tr> *@
+            @*                     <td>@(item.Servico?.DescricaoCurta ?? "Sem descrição")</td> *@
+
+            @*                     <td> *@
+            @*                         <!-- Hidden para identificar cada item --> *@
+            @*                         <input type="hidden" asp-for="@Model.PedidoItens[i].PedidoDetalheId" /> *@
+
+            @*                         <!-- Quantidade editável --> *@
+            @*                         <input asp-for="@Model.PedidoItens[i].Quantidade" type="number" min="0" class="form-control" /> *@
+            @*                     </td> *@
+
+            @*                     <td>@item.Preco.ToString("c")</td> *@
+
+            @*                     @{ *@
+            @*                         var valTotal = item.Quantidade * item.Preco; *@
+            @*                     } *@
+
+            @*                     <td>@valTotal.ToString("c")</td> *@
+            @*                 </tr> *@
+            @*             } *@
+            @*         </tbody> *@
+            @*     </table> *@
+            @* } *@
+            @* else *@
+            @* { *@
+            @*     <p>Este pedido não possui itens.</p> *@
+            @* } *@
+
+            <div class="form-group mt-3">
+                <input type="submit" value="✅ Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <a asp-area="" asp-controller="ManipulaPedidos" asp-action="Index" class="btn btn-secondary">🔙 Voltar à Lista</a>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

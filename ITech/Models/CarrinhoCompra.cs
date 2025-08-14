@@ -63,7 +63,7 @@ namespace ITech.Models
 
         public int RemoverDoCarrinho(Servico Servico)
         {
-            var carrinhoCompraItem = _context.CarrinhoCompraItens.SingleOrDefault(
+            var carrinhoCompraItem = _context.CarrinhoCompraItens.FirstOrDefault(
                 c => c.Servico.ServicoId == Servico.ServicoId &&
                 c.CarrinhoCompraId == CarrinhoCompraId);
 

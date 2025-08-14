@@ -58,8 +58,6 @@ namespace ITech.Areas.Tecnicos.Services
                                     )
                             .OrderByDescending(p => p.PedidoEnviado)
                             .ToListAsync();
-
-
         }
 
     }

@@ -280,6 +280,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/trans/source/Repos/ITech/ITech/Views/ManipulaPedidos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGFQZWRpZG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trans/source/Repos/ITech/ITech/Views/ManipulaPedidos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGFQZWRpZG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trans/source/Repos/ITech/ITech/Views/ManipulaPedidos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGFQZWRpZG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trans/source/Repos/ITech/ITech/Views/ManipulaPedidos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGFQZWRpZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trans/source/Repos/ITech/ITech/Views/ManipulaPedidos/PedidoNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGFQZWRpZG9zXFBlZGlkb05vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trans/source/Repos/ITech/ITech/Views/ManipulaPedidos/PedidoServicos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGFQZWRpZG9zXFBlZGlkb1NlcnZpY29zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/trans/source/Repos/ITech/ITech/Views/ManipulaTecnicos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuaXB1bGFUZWNuaWNvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

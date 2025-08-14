@@ -9,13 +9,21 @@
 <p>Você está prestes a excluir o técnico: <strong>@Model.TecnicoNome</strong>.</p>
 
 <h4>Por favor, digite sua senha para confirmar a exclusão.</h4>
+<br />
+
+@if (!String.IsNullOrEmpty(ViewData["ErrorMessage"]?.ToString()))
+{
+    <div class="alert alert-danger">
+        <strong>Erro:</strong> @ViewData["ErrorMessage"]
+    </div>
+}
 
 <form method="post" asp-area="Admin" asp-controller="AdminTecnicos" asp-action="ConfirmDelete">
     <div class="form-group">
         <label for="password">Senha do Administrador:</label>
         <input type="password" name="password" id="password" class="form-control" required />
     </div>
-
+    <br />
     <button type="submit" class="btn btn-danger">🗑️ Confirmar Exclusão</button>
     <a href="@Url.Action("Index", "AdminTecnicos", new { area = "Admin" })" class="btn btn-secondary">🔙 Cancelar</a>
 </form>

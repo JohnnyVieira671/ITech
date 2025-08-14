@@ -41,8 +41,9 @@ namespace ITech.Areas.Admin.Controllers
                                                  p.Telefone.Contains(filter) ||
                                                  p.Email.Contains(filter));
             }
+            resultado = resultado.OrderByDescending(p => p.PedidoEnviado);
 
-            var model = await PagingList.CreateAsync(resultado, 5, pageindex, sort, "Nome");
+            var model = await PagingList.CreateAsync(resultado, 5, pageindex, sort, "PedidoEnviado");
             model.RouteValue = new RouteValueDictionary { { "filter", filter } };
 
             return View(model);

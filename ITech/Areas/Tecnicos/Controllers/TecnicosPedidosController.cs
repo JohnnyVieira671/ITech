@@ -11,6 +11,8 @@ using ReflectionIT.Mvc.Paging;
 using Microsoft.AspNetCore.Routing;
 using ITech.ViewModels;
 using ITech.Areas.Tecnicos.Services;
+using System.Net.Mail;
+using System.Net;
 
 namespace ITech.Areas.Tecnicos.Controllers
 {
@@ -115,6 +117,7 @@ namespace ITech.Areas.Tecnicos.Controllers
                         return NotFound();
 
                     // Atualiza os dados do pedido
+
                     //pedidoDb.Nome = pedido.Nome;
                     //pedidoDb.Sobrenome = pedido.Sobrenome;
                     //pedidoDb.Endereco1 = pedido.Endereco1;
@@ -192,8 +195,65 @@ namespace ITech.Areas.Tecnicos.Controllers
             {
                 return Problem("Entity set 'AppDbContext.Pedidos' is null.");
             }
-            var pedido = await _context.Pedidos.FindAsync(id);
-            if (pedido != null)
+
+            var email = User.Identity?.Name;
+
+            var pedido = await _context.Pedidos
+                .Include(p => p.PedidoItens)
+                    .ThenInclude(pi => pi.Servico)
+                        .ThenInclude(s => s.Tecnicos)
+                .FirstOrDefaultAsync(p => p.PedidoId == id);
+
+            if (pedido == null)
+            {
+                return NotFound();
+            }
+
+            var itensDoTecnico = pedido.PedidoItens
+                .Where(item => item.Servico.Tecnicos.Email == email)
+                .ToList();
+
+            var nomesRemovidos = itensDoTecnico
+                .Select(item => item.Servico.DescricaoCurta)
+                .ToList();
+
+            foreach (var item in itensDoTecnico)
+            {
+                _context.PedidoDetalhes.Remove(item);
+            }
+
+            var nomesComoTexto = string.Join(", ", nomesRemovidos);
+            var emailTecnico = itensDoTecnico.FirstOrDefault()?.Servico.Tecnicos.Email ?? "(email não encontrado)";
+
+            var mensagem = $@"
+                            Olá {pedido.Nome},
+
+                            Informamos que alguns serviços do seu pedido foram cancelados pelo técnico responsável.  
+                            Os serviços cancelados são: {nomesComoTexto}.
+
+                            Pedimos desculpas pelo transtorno. O valor correspondente será reembolsado automaticamente.  
+                            Caso deseje entrar em contato com o técnico, você pode utilizar o e-mail abaixo:
+
+                            E-mail do técnico: {emailTecnico}
+
+                            Atenciosamente,  
+                            Equipe I'Tech
+                            ";
+
+            var mail = new MailMessage();
+            mail.To.Add(pedido.Email);
+            mail.From = new MailAddress("itech.technology80@gmail.com");
+            mail.Subject = "Cancelamento de Serviços do Pedido";
+            mail.Body = mensagem;
+
+            using (var smtp = new SmtpClient("smtp.gmail.com", 587))
+            {
+                smtp.Credentials = new NetworkCredential("itech.technology80@gmail.com", "katpwsmitblzxxqc");
+                smtp.EnableSsl = true;
+                smtp.Send(mail);
+            }
+
+            if (pedido.PedidoItens.Count == itensDoTecnico.Count)
             {
                 _context.Pedidos.Remove(pedido);
             }
@@ -202,6 +262,7 @@ namespace ITech.Areas.Tecnicos.Controllers
 
             return RedirectToAction("Index", "TecnicosPedidos", new { area = "Tecnicos" });
         }
+
 
         private bool PedidoExists(int id)
         {

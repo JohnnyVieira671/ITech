@@ -1,12 +1,11 @@
 ﻿@model ITech.Models.Pedido
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Details";
 }
 
-<h1>Delete</h1>
+<h1>Details</h1>
 
-<h3>Tem certeza que quer deletar esse pedido?</h3>
 <div>
     <h4>Pedido</h4>
     <hr />
@@ -78,25 +77,11 @@
             @Html.DisplayFor(model => model.PedidoEntregueEm)
         </dd>
     </dl>
-
-    <form id="deleteForm" asp-area="Tecnicos" asp-controller="TecnicosPedidos" asp-action="Delete">
-        <input type="hidden" asp-for="PedidoId" />
-        <input id="btnSubmit" class="btn btn-danger" type="submit" value="🗑️ Delete" />
-        <span id="loadingMessage" style="display:none; font-weight:bold; margin-left:10px;">
-            Carregando, por favor aguarde...
-        </span>
-
-        <a asp-area="Tecnicos" asp-controller="TecnicosPedidos" asp-action="Index" class="btn btn-secondary">🔙 Voltar à Lista</a>
-        
-    </form>
 </div>
 
+<div class="mt-4">
+    <a asp-area="" asp-controller="ManipulaPedidos" asp-action="Index" class="btn btn-secondary">
+        🔙 Voltar à Lista
+    </a>
+</div>
 
-<script>
-    document.getElementById('deleteForm').addEventListener('submit', function () {
-      // Esconde o botão
-      document.getElementById('btnSubmit').style.display = 'none';
-      // Mostra a mensagem carregando
-      document.getElementById('loadingMessage').style.display = 'inline';
-    });
-</script>

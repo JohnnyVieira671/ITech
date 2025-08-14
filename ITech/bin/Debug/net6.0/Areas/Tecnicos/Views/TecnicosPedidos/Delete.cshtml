@@ -78,12 +78,25 @@
             @Html.DisplayFor(model => model.PedidoEntregueEm)
         </dd>
     </dl>
-    
-    <form asp-area="Tecnicos" asp-controller="TecnicosPedidos" asp-action="Delete">
+
+    <form id="deleteForm" asp-area="Tecnicos" asp-controller="TecnicosPedidos" asp-action="Delete">
         <input type="hidden" asp-for="PedidoId" />
-        <input type="submit" value="🗑️ Delete" class="btn btn-danger" />
+        <input id="btnSubmit" class="btn btn-danger" type="submit" value="🗑️ Delete" />
+        <span id="loadingMessage" style="display:none; font-weight:bold; margin-left:10px;">
+            Carregando, por favor aguarde...
+        </span>
 
         <a asp-area="Tecnicos" asp-controller="TecnicosPedidos" asp-action="Index" class="btn btn-secondary">🔙 Voltar à Lista</a>
         
     </form>
 </div>
+
+
+<script>
+    document.getElementById('deleteForm').addEventListener('submit', function () {
+      // Esconde o botão
+      document.getElementById('btnSubmit').style.display = 'none';
+      // Mostra a mensagem carregando
+      document.getElementById('loadingMessage').style.display = 'inline';
+    });
+</script>

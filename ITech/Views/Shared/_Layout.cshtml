@@ -49,7 +49,11 @@
                     @if ((User.IsInRole("Member") && !User.IsInRole("Admin") && !User.IsInRole("Tecnicos")))
                     {
                         <a class="nav-link text-light" asp-area="" asp-controller="ManipulaTecnicos" asp-action="Create">Trabalhe Conosco</a>
-                    }           
+                    }  
+                    @if (User.IsInRole("Member"))
+                    {
+                        <a class="nav-link text-light" asp-area="" asp-controller="ManipulaPedidos" asp-action="Index">Seus Pedidos</a>
+                    }
                 </div>
             </div>
         </nav>
